@@ -1,0 +1,22 @@
+name: "trainome -- Manuals"
+output_dir: "."
+navbar:
+  title: "Trainome"
+  left:
+    - text: "Project Managing"
+      href: projects.html
+    - text: "Protocols"
+      href: protocols.html
+    - text: "Software"
+      href: software.html
+    - text: "FAQ"
+      href: faq.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/trainome
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
