@@ -3,6 +3,13 @@ title: "Project managing"
 date: 2019-08-15
 ---
 
-# Current projects
+## Current projects
+
+The Trainome consist of several research projects.
+
+TR003
+TR004
+TR005
+...
 
 # Start a new project
