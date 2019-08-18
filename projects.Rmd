@@ -1,6 +1,5 @@
 ---
 title: "Project managing"
-date: 2019-08-15
 ---
 
 ## Current projects
@@ -12,4 +11,4 @@ TR004
 TR005
 ...
 
-# Start a new project
+## Start a new project

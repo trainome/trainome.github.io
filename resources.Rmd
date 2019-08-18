@@ -1,0 +1,16 @@
+---
+title: "Resources"
+---
+
+## Project administration
+- [TSD User Guides](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/)
+
+## Writing documentation
+- [Markdown](https://www.markdownguide.org/) is a markup language that can be used to create documents in your text editor.
+
+## R and RStudio
+
+- [Download R](https://cran.r-project.org/)
+- [Download RStudio](https://www.rstudio.com/)
+- [RStudio collection of cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
+
