@@ -22,4 +22,3 @@ output:
   html_document:
     theme: sandstone
     highlight: tango
-    css: 'styles.css'

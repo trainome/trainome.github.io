@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Extraction of RNA and protein from muscle tissue</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Trainome</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="projects.html">Project Management</a>
+</li>
+<li>
+  <a href="protocols.html">Protocols</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="faq.html">FAQ</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/trainome">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Extraction of RNA and protein from muscle tissue</h1>
+<h4 class="date">Version 2019-11-11</h4>
+
+</div>
+
+
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>The Trizol-protocol can be used to extract RNA, DNA and protein from muscle tissue. The protein pellet is hard to dissolve, Kopec et al. <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> provided guidelines for improved solubility of the protein pellet after precipitation. The total RNA content per tissue weight can be used as proxy marker for ribosome content. If this is an aim, care must be taken to assure e.g. no sample loss. External reference genes can be used to control for tissue weight.</p>
+</div>
+<div id="materials" class="section level2">
+<h2>Materials</h2>
+<p>For extraction of RNA and protein per sample:</p>
+<ul>
+<li>1.5 ml Eppendorf tube with 0.5 mm RNase-free Zirconium beads (~50 ul) Keep out DNA RNAse contaminations (Eppendorf safe-lock for use in bullet blender.</li>
+<li>1.5 ml tube for RNA precipitation</li>
+<li>1.5 ml tube for RNA quantification (1:5 dilution, add 20 ul of DEPC-water)</li>
+<li>1.5 ml tubes for Protein precipitation</li>
+<li>1.5 ml tubes for Soluble protein fraction</li>
+<li>1.5 ml tubes for protein quantification (1:10 dilution, add 36 ul of ddH2O)</li>
+</ul>
+</div>
+<div id="solutions-and-chemicals" class="section level2">
+<h2>Solutions and chemicals</h2>
+<ul>
+<li><p>Trizol (Life-technologies)</p></li>
+<li><p>Chloroform</p></li>
+<li><p>Isopropanol</p></li>
+<li><p>External reference gene (e.g. Takara lambda)</p></li>
+<li><p>100% EtOH</p></li>
+<li><p>95% EtOH</p></li>
+<li><p>75% EtOH (kept on -20)</p></li>
+<li><p>Kopec buffer:</p></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>MW</th>
+<th>Final concentration</th>
+<th>For 200 ml</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDTA</td>
+<td>372.24</td>
+<td>20 mM</td>
+<td>1.49 g</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>58.44</td>
+<td>140 mM</td>
+<td>1.64 g</td>
+</tr>
+<tr class="odd">
+<td>SDS</td>
+<td></td>
+<td>5%</td>
+<td>10 g</td>
+</tr>
+<tr class="even">
+<td>Tris</td>
+<td>121.14</td>
+<td>10 mM</td>
+<td>2.42 g</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8.0, add phosphatase and protease inhibitors prior to use.</p>
+</div>
+<div id="methods" class="section level2">
+<h2>Methods</h2>
+<div id="homogenization-and-phase-separation" class="section level3">
+<h3>Homogenization and phase separation</h3>
+<ol style="list-style-type: decimal">
+<li>Add 1 sample volume of beads and 300 ul Trizol to eppendorf 1.5 ml tubes. Keep on ice. OPTIONAL: If external reference gene is used, add 1 unit to every extraction with Trizol in first step. Lambda (0.04 ng/ul, 2 ul per extraction)</li>
+<li>Add frozen muscle samples (protocol optimized for 5-25 ug of wet weight muscle sample) without thawing and put tubes in Bullet blender</li>
+<li>Run Bullet Blender (BB) for 1 min at speed 10, put samples on ice for 1 min. Run samples for 1 min at speed 12. Check samples, if not dissolved run until fully homogenized.</li>
+<li>Add Trizol (700 ul) to total volume 1000 ul, run samples in BB for 1 min speed 3.</li>
+<li>Incubate @ RT for 5 min</li>
+<li>Add 200 ul chloroform, shake 15 sec, incubate for 2-3 min.</li>
+<li>Spin 12000g, 15min, 4°C</li>
+<li>Pipette 450 ul of the aqueous phase to a new tube. Be careful not to disrupt the interphase or organic phase. Add 500 ul of isopropanol to precipitate RNA, incubate over night at -20°C or 10 min at room temp and continue with RNA extraction.</li>
+<li>Completely remove the remaining aqueous phase, either store remaining phases at -20°C until protein extraction or continue right away</li>
+</ol>
+</div>
+<div id="rna-extraction" class="section level3">
+<h3>RNA extraction</h3>
+<p>Precipitation and wash</p>
+<ol style="list-style-type: decimal">
+<li>Spin the isopropanol/water phase 12000g, 10min, 4°C. A pellet should form, decant supernatant, spin briefly and remove remaining liquids.</li>
+<li>Add 1000 ul 75% EtOH (-20°C) @ RT, vortex gently. Spin 7500g, 5min, 4°C.</li>
+<li>Repeat step 2 two more times.</li>
+<li>Remove all EtOH, air dry the pellet up to 10 min with tubes upside-down. Do not over-dry!</li>
+</ol>
+<div id="suspension" class="section level4">
+<h4>Suspension</h4>
+<ol style="list-style-type: decimal">
+<li>Add 20-40 ul of 1x DEPC-treated water (55°C), incubate at 55°C for 10min.</li>
+<li>Aliquot:
+<ul>
+<li>5 ul to 20 ul TE buffer for Nanodrop/Qubit<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></li>
+<li>x ul in stock solution</li>
+</ul></li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li>Store RNA stock solution @ -80°C.</li>
+</ol>
+</div>
+</div>
+<div id="protein-extraction" class="section level3">
+<h3>Protein extraction</h3>
+<div id="dna-precipitation-protein-precipitation" class="section level4">
+<h4>DNA precipitation, protein precipitation</h4>
+<ol style="list-style-type: decimal">
+<li>Add 300 ul of 100% EtOH, invert tubes to mix. Incubate for 3 min @ RT.</li>
+<li>Spinn 2000g, 5min, 4°C.</li>
+<li>Transfer the phenol-ethanol supernatant to a new tube<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</li>
+<li>Transfer-volume <span class="math inline">\(\frac{1.75}{MW/950}\)</span> , where MW is muscle weight<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>.</li>
+</ol>
+<ol start="5" style="list-style-type: decimal">
+<li>Add at least 2x isopropanol, shake and incubate samples @ RT, 10 min.</li>
+<li>Spinn 12 000g, 10 min, 4°C</li>
+<li>Wash pellet in 500 ul 95% EtOH. Work quickly do not dry out the pellet, no incubations. Dislodge the pellet from the tube in every wash.</li>
+<li>Spinn, 7500 g, 5 min, 4°C. Remove wash.</li>
+<li>Repeat step 7-8, one to two more times.</li>
+<li>Air dry pellet 5-10 min, do not dry out the pellet but remove ALL EtOH! (Centrifuge briefly to remove all EtOH).</li>
+</ol>
+</div>
+<div id="protein-re-suspension" class="section level4">
+<h4>Protein re-suspension</h4>
+<ol style="list-style-type: decimal">
+<li>Add 45 ul of Kopec-buffer</li>
+<li>Incubate 2-4 hours at 50°C</li>
+<li>Pipette solution to mix. Centrifuge at room temp to sediment any insoluble material. (10000 g, 5 min)</li>
+<li>Transfer supernatant to 3 aliquots (~60 ul) + 4 ul to 36 ul H2O for 1:10 dilution</li>
+<li>Measure 5 ul of 1:10 dilution in qubit for protein concentration. Store at -80°C</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Kopec, A.M., et al., Optimized solubilization of TRIzol-precipitated protein permits Western blotting analysis to maximize data available from brain tissue. Journal of neuroscience methods, 2017. 280: p. 64-76.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>TE buffer can be used to get more reliable quality readings as pH of the buffer affects the 260 reading in the spectrometer<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Multiple aliquots are recommended, e.g. continue with two and keep two as backup on -20°C.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Transfers a volume corresponding to 1.75 mg of tissue<a href="#fnref4" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
