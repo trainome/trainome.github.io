@@ -20,5 +20,6 @@ navbar:
       href: http://github.com/trainome
 output:
   html_document:
-    theme: paper
+    theme: sandstone
+    highlight: tango
     css: 'styles.css'
