@@ -1,9 +1,9 @@
 name: "trainome -- Manuals"
-output_dir: "."
+output_dir: "docs"
 navbar:
   title: "Trainome"
   left:
-    - text: "Project Managing"
+    - text: "Project Management"
       href: projects.html
     - text: "Protocols"
       href: protocols.html

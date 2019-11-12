@@ -1,0 +1,86 @@
+---
+title: "cDNA synthesis using Superscript IV and general qPCR"
+date: "Version 2019-11-12"
+output: html_document
+---
+
+## cDNA synthesis
+
+### Background
+
+RNA abundance-analysis is enabled through the synthesis of complementary DNA from single stranded RNA prior to real-time quantitative polymerase chain reaction (qPCR). Successful cDNA synthesis is made using high quality input RNA. This protocol is slightly modified from the Superscript manual.
+
+### Materials 
+
+* Heating block or thermal-cycler capable of 65, 50-55 and 80°C
+* RNase-free tubes, pipette tips
+* Superscript IV kit (SSIV Buffer, SSIV Reverese transcriptase, 100 nM DTT)
+* Oligo dT and/or Random Hexamer primers
+* 10 mM dNTP mix
+* Total-RNA or mRNA
+
+### Methods
+
+1. Combine the following components per reaction (consider creating a master mix from component a and b if you are running many samples, master mix 1):
+
+|Component |Volume per reaction |
+|---------------------|--------------------|
+|50 μM Oligo dT or 50 μM Random hexamers or 25 μM Oligo dT and 25 μM Random Hexamers|	0.5 μl Oligo dT (art nr. AB-1247) + 0.5 μl Random Hexamers (SO142)|
+|10 mM dNTP mix (10 mM each)|1 μl|
+|Template RNA (0.1-5000 ng total-RNA)|Up to 11 μl|
+|Nuclease-free water|	Add to total volume 13 μl|
+
+
+
+2. Mix all components, vortex and briefly spin down.
+3. Heat the mix 5 min at 65°C followed by at least 1 min incubation on ice.
+4. Bring the 5x SSIV buffer to room-temp. Vortex and spin briefly.
+5. Combine the following into master-mix 2:
+
+|Component |Volume per reaction|
+|----------|-------------------|
+|5x SSIV Buffer|	4 μl|
+|100 mM DTT	|1 μl|
+|RNase OUT	|1 μl|
+|Super Script reverse transcriptase	|1 μl|
+
+
+6. Vortex and briefly spin the components of master mix 2, add master-mix 2 to the reaction tube.
+7. Incubate the reaction tube at 23°C 10 min.
+8. Incubate the reaction mix at 50-55 °C 10 min followed by 10 min at 80°C
+9. Dilute the cDNA to desired concentration (e.g. 1:25)
+
+## qPCR
+
+### Background
+
+Targeted amplification of cDNA using specific primers is a sensitive technique for the evaluation of gene-abundance. 
+
+
+### Materials
+
+* A real-time PCR machine (We use QuantStudio 5)
+* A qPCR reaction plate
+* Nuclease-free water and pipette tips
+* SYBR-green Master mix
+
+### Methods
+
+1. Combine a master-mix:
+
+
+|Component | Volume per reaction |
+|----------|---------------------|
+|Sybr-green 2X master-mix|	5 μl[^b]|
+|Primermix, Forward and Reverese 5 μM[^a] each|	1 μl|
+|H2O|	2 μl|
+
+[^b]: The final volume of the reaction may be optimized, 10 ul is a good starting point
+
+[^a]: Primer concentrations might need further optimization 
+
+
+2. Load the plate with primer-specific master-mix
+3. Add 2 μl cDNA sample.
+
+

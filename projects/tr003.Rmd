@@ -1,0 +1,11 @@
+---
+title: "Effects of single- vs. multiple set resistance training"
+output: html_document
+---
+
+## Synopsis
+
+## Collaborators
+
+## Publications
+

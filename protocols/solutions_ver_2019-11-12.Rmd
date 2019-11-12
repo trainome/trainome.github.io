@@ -1,0 +1,75 @@
+---
+title: "Solutions"
+date: "Version 2019-11-12"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+## Running buffer (1 liter)
+
+* 100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)
+* 10 ml of 10% SDS (final concentration 0.1%)
+* ddH2O to 1000 ml
+
+Do not adjust pH, chill before use.
+
+## Transfer buffer (1 liter)
+
+* 100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)
+* 100 ml MeOH (Final concentration 10%)
+* ddH2O to 1000 ml
+
+Do not adjust pH, chill before use. The buffer can be re-used up to five times. Make buffer on the day before the experiment to allow to “de-gas”. Disposal: Do NOT pour transfer buffer down the drain, collect in designated bottle and dispose as hazardous waste.
+
+
+## 10X TBS (1 liter)
+
+* 24 g Tris-HCl (formula weight: 157.6 g)
+* 5.6 g Tris base (formula weight: 121.1 g)
+* 88 g NaCl (formula weight: 58.4 g)
+
+Dissolve in 900 mL ddH2O
+Adjust pH to 7.6 and make up to final volume 1000 ml with ddH2O. The final molar concentrations of the 1X solution are 20 mM Tris and 150 mM NaCl
+
+
+## 1X TBS-Tween (1 liter)
+
+* 100 ml 10X TBS
+* 1 ml Tween-20 (final concentration 0.1%)
+
+To 1000 ml with ddH2O
+
+
+## 10X Tris-Glycine buffer (1 liter)
+
+* 30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)
+* 144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)
+
+Dissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3.
+
+## 10X Tris-Glycine - Running buffer (1 liter)
+
+* 30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)
+* 144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)
+* 10 g SDS
+
+Dissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3.
+
+## Kopec buffer
+
+**Note:** The Kopec buffer is suitable for dissolvining the protein pellet after Trizol extraction. See full protocol: [Extraction of RNA and protein from muscle samples using Trizol reagent](protocols/trizol_ver_20191111.html).
+
+|Component     |MW	|Final concentration   |For 200 ml |
+|--------------|--------|----------------------|-----------|
+|EDTA	|372.24	|20 mM	|1.49 g|
+|NaCl	|58.44	|140 mM	|1.64 g|
+|SDS	|	|5%	|10 g|
+|Tris 	|121.14	|10 mM	|2.42 g|
+
+Adjust pH to 8.0, add phosphatase and protease inhibitors prior to use.
+
+
+

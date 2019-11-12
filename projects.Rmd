@@ -1,14 +1,19 @@
 ---
-title: "Project managing"
+title: "Project management"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
 ---
 
 ## Current projects
 
 The Trainome consist of several research projects.
 
-TR003
-TR004
-TR005
-...
+* TR003: [Effects of single- vs. multiple set resistance training](projects/tr003.html)
+* TR005:
+* TR015: 
+
 
 ## Start a new project
