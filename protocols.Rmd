@@ -5,7 +5,7 @@ date: 2019-08-15
 
 ## Current protocols
 
-- [Extraction of RNA and protein from muscle samples using Trizol reagent](protocols/trizol_ver_20191111.html)
-- [cDNA synthesis using Superscript IV](protocols/cdnasynthesis_ver_2019-11-12.html)
-- [General purpose muscle tissue homogenization protocol](tissuehomogenization_ver_2019-11-12.html)
-- [Solutions and buffers](solutions_ver_2019-11-12.html)
+- [Extraction of RNA and protein from muscle samples using Trizol reagent](pr_trizol_ver_20191111.html)
+- [cDNA synthesis using Superscript IV](pr_cdnasynthesis_ver_2019-11-12.html)
+- [General purpose muscle tissue homogenization protocol](pr_tissuehomogenization_ver_2019-11-12.html)
+- [Solutions and buffers](pr_solutions_ver_2019-11-12.html)

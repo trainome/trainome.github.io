@@ -11,9 +11,8 @@
 
 
 
-<meta name="date" content="2019-08-15" />
 
-<title>Protocols</title>
+<title>cDNA synthesis using Superscript IV and general qPCR</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -313,20 +312,158 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Protocols</h1>
-<h4 class="date">2019-08-15</h4>
+<h1 class="title toc-ignore">cDNA synthesis using Superscript IV and general qPCR</h1>
+<h4 class="date">Version 2019-11-12</h4>
 
 </div>
 
 
-<div id="current-protocols" class="section level2">
-<h2>Current protocols</h2>
+<div id="cdna-synthesis" class="section level2">
+<h2>cDNA synthesis</h2>
+<div id="background" class="section level3">
+<h3>Background</h3>
+<p>RNA abundance-analysis is enabled through the synthesis of complementary DNA from single stranded RNA prior to real-time quantitative polymerase chain reaction (qPCR). Successful cDNA synthesis is made using high quality input RNA. This protocol is slightly modified from the Superscript manual.</p>
+</div>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
 <ul>
-<li><a href="pr_trizol_ver_20191111.html">Extraction of RNA and protein from muscle samples using Trizol reagent</a></li>
-<li><a href="pr_cdnasynthesis_ver_2019-11-12.html">cDNA synthesis using Superscript IV</a></li>
-<li><a href="pr_tissuehomogenization_ver_2019-11-12.html">General purpose muscle tissue homogenization protocol</a></li>
-<li><a href="pr_solutions_ver_2019-11-12.html">Solutions and buffers</a></li>
+<li>Heating block or thermal-cycler capable of 65, 50-55 and 80°C</li>
+<li>RNase-free tubes, pipette tips</li>
+<li>Superscript IV kit (SSIV Buffer, SSIV Reverese transcriptase, 100 nM DTT)</li>
+<li>Oligo dT and/or Random Hexamer primers</li>
+<li>10 mM dNTP mix</li>
+<li>Total-RNA or mRNA</li>
 </ul>
+</div>
+<div id="methods" class="section level3">
+<h3>Methods</h3>
+<ol style="list-style-type: decimal">
+<li>Combine the following components per reaction (consider creating a master mix from component a and b if you are running many samples, master mix 1):</li>
+</ol>
+<table>
+<colgroup>
+<col width="51%" />
+<col width="48%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume per reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>50 μM Oligo dT or 50 μM Random hexamers or 25 μM Oligo dT and 25 μM Random Hexamers</td>
+<td>0.5 μl Oligo dT (art nr. AB-1247) + 0.5 μl Random Hexamers (SO142)</td>
+</tr>
+<tr class="even">
+<td>10 mM dNTP mix (10 mM each)</td>
+<td>1 μl</td>
+</tr>
+<tr class="odd">
+<td>Template RNA (0.1-5000 ng total-RNA)</td>
+<td>Up to 11 μl</td>
+</tr>
+<tr class="even">
+<td>Nuclease-free water</td>
+<td>Add to total volume 13 μl</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>Mix all components, vortex and briefly spin down.</li>
+<li>Heat the mix 5 min at 65°C followed by at least 1 min incubation on ice.</li>
+<li>Bring the 5x SSIV buffer to room-temp. Vortex and spin briefly.</li>
+<li>Combine the following into master-mix 2:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume per reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5x SSIV Buffer</td>
+<td>4 μl</td>
+</tr>
+<tr class="even">
+<td>100 mM DTT</td>
+<td>1 μl</td>
+</tr>
+<tr class="odd">
+<td>RNase OUT</td>
+<td>1 μl</td>
+</tr>
+<tr class="even">
+<td>Super Script reverse transcriptase</td>
+<td>1 μl</td>
+</tr>
+</tbody>
+</table>
+<ol start="6" style="list-style-type: decimal">
+<li>Vortex and briefly spin the components of master mix 2, add master-mix 2 to the reaction tube.</li>
+<li>Incubate the reaction tube at 23°C 10 min.</li>
+<li>Incubate the reaction mix at 50-55 °C 10 min followed by 10 min at 80°C</li>
+<li>Dilute the cDNA to desired concentration (e.g. 1:25)</li>
+</ol>
+</div>
+</div>
+<div id="qpcr" class="section level2">
+<h2>qPCR</h2>
+<div id="background-1" class="section level3">
+<h3>Background</h3>
+<p>Targeted amplification of cDNA using specific primers is a sensitive technique for the evaluation of gene-abundance.</p>
+</div>
+<div id="materials-1" class="section level3">
+<h3>Materials</h3>
+<ul>
+<li>A real-time PCR machine (We use QuantStudio 5)</li>
+<li>A qPCR reaction plate</li>
+<li>Nuclease-free water and pipette tips</li>
+<li>SYBR-green Master mix</li>
+</ul>
+</div>
+<div id="methods-1" class="section level3">
+<h3>Methods</h3>
+<ol style="list-style-type: decimal">
+<li>Combine a master-mix:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume per reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sybr-green 2X master-mix</td>
+<td>5 μl<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></td>
+</tr>
+<tr class="even">
+<td>Primermix, Forward and Reverese 5 μM<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> each</td>
+<td>1 μl</td>
+</tr>
+<tr class="odd">
+<td>H2O</td>
+<td>2 μl</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>Load the plate with primer-specific master-mix</li>
+<li>Add 2 μl cDNA sample.</li>
+</ol>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The final volume of the reaction may be optimized, 10 ul is a good starting point<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Primer concentrations might need further optimization<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
 
 

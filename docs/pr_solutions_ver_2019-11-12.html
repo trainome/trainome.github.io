@@ -11,9 +11,8 @@
 
 
 
-<meta name="date" content="2019-08-15" />
 
-<title>Protocols</title>
+<title>Solutions</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -252,6 +254,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -259,6 +318,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -313,24 +382,110 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Protocols</h1>
-<h4 class="date">2019-08-15</h4>
+<h1 class="title toc-ignore">Solutions</h1>
+<h4 class="date">Version 2019-11-12</h4>
 
 </div>
 
 
-<div id="current-protocols" class="section level2">
-<h2>Current protocols</h2>
+<div id="running-buffer-1-liter" class="section level2">
+<h2>Running buffer (1 liter)</h2>
 <ul>
-<li><a href="pr_trizol_ver_20191111.html">Extraction of RNA and protein from muscle samples using Trizol reagent</a></li>
-<li><a href="pr_cdnasynthesis_ver_2019-11-12.html">cDNA synthesis using Superscript IV</a></li>
-<li><a href="pr_tissuehomogenization_ver_2019-11-12.html">General purpose muscle tissue homogenization protocol</a></li>
-<li><a href="pr_solutions_ver_2019-11-12.html">Solutions and buffers</a></li>
+<li>100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)</li>
+<li>10 ml of 10% SDS (final concentration 0.1%)</li>
+<li>ddH2O to 1000 ml</li>
 </ul>
+<p>Do not adjust pH, chill before use.</p>
+</div>
+<div id="transfer-buffer-1-liter" class="section level2">
+<h2>Transfer buffer (1 liter)</h2>
+<ul>
+<li>100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)</li>
+<li>100 ml MeOH (Final concentration 10%)</li>
+<li>ddH2O to 1000 ml</li>
+</ul>
+<p>Do not adjust pH, chill before use. The buffer can be re-used up to five times. Make buffer on the day before the experiment to allow to “de-gas”. Disposal: Do NOT pour transfer buffer down the drain, collect in designated bottle and dispose as hazardous waste.</p>
+</div>
+<div id="x-tbs-1-liter" class="section level2">
+<h2>10X TBS (1 liter)</h2>
+<ul>
+<li>24 g Tris-HCl (formula weight: 157.6 g)</li>
+<li>5.6 g Tris base (formula weight: 121.1 g)</li>
+<li>88 g NaCl (formula weight: 58.4 g)</li>
+</ul>
+<p>Dissolve in 900 mL ddH2O Adjust pH to 7.6 and make up to final volume 1000 ml with ddH2O. The final molar concentrations of the 1X solution are 20 mM Tris and 150 mM NaCl</p>
+</div>
+<div id="x-tbs-tween-1-liter" class="section level2">
+<h2>1X TBS-Tween (1 liter)</h2>
+<ul>
+<li>100 ml 10X TBS</li>
+<li>1 ml Tween-20 (final concentration 0.1%)</li>
+</ul>
+<p>To 1000 ml with ddH2O</p>
+</div>
+<div id="x-tris-glycine-buffer-1-liter" class="section level2">
+<h2>10X Tris-Glycine buffer (1 liter)</h2>
+<ul>
+<li>30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)</li>
+<li>144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)</li>
+</ul>
+<p>Dissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3.</p>
+</div>
+<div id="x-tris-glycine---running-buffer-1-liter" class="section level2">
+<h2>10X Tris-Glycine - Running buffer (1 liter)</h2>
+<ul>
+<li>30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)</li>
+<li>144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)</li>
+<li>10 g SDS</li>
+</ul>
+<p>Dissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3.</p>
+</div>
+<div id="kopec-buffer" class="section level2">
+<h2>Kopec buffer</h2>
+<p><strong>Note:</strong> The Kopec buffer is suitable for dissolvining the protein pellet after Trizol extraction. See full protocol: <a href="pr_trizol_ver_20191111.html">Extraction of RNA and protein from muscle samples using Trizol reagent</a>.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>MW</th>
+<th>Final concentration</th>
+<th>For 200 ml</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDTA</td>
+<td>372.24</td>
+<td>20 mM</td>
+<td>1.49 g</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>58.44</td>
+<td>140 mM</td>
+<td>1.64 g</td>
+</tr>
+<tr class="odd">
+<td>SDS</td>
+<td></td>
+<td>5%</td>
+<td>10 g</td>
+</tr>
+<tr class="even">
+<td>Tris</td>
+<td>121.14</td>
+<td>10 mM</td>
+<td>2.42 g</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8.0, add phosphatase and protease inhibitors prior to use.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -363,6 +518,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

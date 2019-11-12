@@ -60,7 +60,7 @@ Dissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should 
 
 ## Kopec buffer
 
-**Note:** The Kopec buffer is suitable for dissolvining the protein pellet after Trizol extraction. See full protocol: [Extraction of RNA and protein from muscle samples using Trizol reagent](protocols/trizol_ver_20191111.html).
+**Note:** The Kopec buffer is suitable for dissolvining the protein pellet after Trizol extraction. See full protocol: [Extraction of RNA and protein from muscle samples using Trizol reagent](pr_trizol_ver_20191111.html).
 
 |Component     |MW	|Final concentration   |For 200 ml |
 |--------------|--------|----------------------|-----------|

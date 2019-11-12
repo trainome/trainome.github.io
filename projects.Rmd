@@ -11,7 +11,7 @@ output:
 
 The Trainome consist of several research projects.
 
-* TR003: [Effects of single- vs. multiple set resistance training](projects/tr003.html)
+* TR003: [Effects of single- vs. multiple set resistance training](tr003.html)
 * TR005:
 * TR015: 
 
