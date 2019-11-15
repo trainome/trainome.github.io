@@ -9,3 +9,4 @@ date: 2019-08-15
 - [cDNA synthesis using Superscript IV](pr_cdnasynthesis_ver_2019-11-12.html)
 - [General purpose muscle tissue homogenization protocol](pr_tissuehomogenization_ver_2019-11-12.html)
 - [Solutions and buffers](pr_solutions_ver_2019-11-12.html)
+- [Extraction of DNA from whole blood](pr_DNAextraction_ver_2019-11-14.html)

@@ -1,0 +1,115 @@
+---
+title: "Extraction of DNA from whole blood"
+output: html_document
+---
+
+## Background
+
+This protocol is adopted from Bartlett, J. M. S. and D. Stirling (2003), PCR protocols, Ch 6.
+
+## Materials
+
+- 15 ml centrifuge tubes
+- 1.5 ml centrifuge tubes
+- Waterbath (65&#176;C)
+- Tube rotator
+
+### Solutions
+
+* 0.5 M EDTA, pH 8, for 1 l:
+
+|Component |Weight |
+|----------|-------|
+|EDTA   |146.1 g|
+|NaOH | ~20g|
+
+Add EDTA to 800 mL ddH~2~O, adjust pH with NaOH. Autoclave 15 psi, 15 min.
+
+* 1 M Tris-HCl, pH 7.6, for 1 L:
+
+|Component |Weight |
+|----------|-------|
+|Tris-base |121.1 g|
+
+Add to 800 mL ddH~2~O, adjust pH with HCl and make up to 1L. Autoclave 15 psi, 15 min.
+
+* Reagent A, red blood cell lysis, pH 8. For 1L:
+
+|Component |Concentration |Weight/Volume|
+|----------|--------------|-------------|
+|Tris-HCl |0.01 M       |10 ml 1 M Tris-HCl|
+|Sucrose  |320 mM |109.54 g |
+|MgCl~2~  |5 mM |0.47 g|
+|Triton X-100|1% |10 mL |
+
+Adjust pH to 8 with NaOH. Autoclave 10 psi, 10 min.
+
+
+* Reagent B, cell lysis
+
+|Component |Concentration |Weight/Volume|
+|----------|--------------|-------------|
+|Tris-HCl  |0.4 M         |400 mL 1 M Tris-HCl     |
+|NaCl      |150 mM        |8.76 g       |
+|EDTA      |0.06 M        |120 mL 0.6 M EDTA|
+|SDS       |1%            |10 g[^a]         |
+
+Adjust pH to 8 and make to 1 L with ddH~2~O. Autoclave at 15 min at 15 psi[^a].
+
+[^a]: Add SDS after autoclaving.
+
+* 5 M sodium perchlorate, for 100 mL:
+
+|Component |Weight/Volume|
+|----------|-------------|
+|sodium perchlorate|70 g |
+
+Dissolve in 80 mL ddH~2~O make to 100 mL.
+
+* TE-buffer, for 1 L:
+
+|Component |Concentration |Weight/Volume|
+|----------|--------------|-------------|
+|Tris-HCl  |0.01 M         |10 mL 1 M Tris-HCl ph 7.6|
+|EDTA      |1 mM           |2 mL 0.5 EDTA|
+
+Adjust pH to 7.6, make to 1 L, autoclave 15 min at 15 psi.
+
+* Chloroform, chill to 4&#176;C.
+
+* Ethanol (100%), chill to 4&#176;C.
+
+## Methods
+
+Blood can be collected in heparin or EDTA-vacutainer tubes. Process samples on the same days as collection if stored at room temp.
+
+1. Move 3mL of whole blood to a 15 mL tube.
+2. Add 12 mL of **Reagent A**
+3. Mix slowly in a rotator, 4 min at room temp.
+4. Centrifuge 3000 g for 5 min at room temp. 
+5. Discard supernatant without disturbing cell pellet. Remove all moisture by inverting and blotting on paper or by pipetting.
+6. Add 1 mL of **Reagent B**, vortex to resuspend the cell pellet.
+7. Add 250 ul of **5 M sodium perchlorate** and mix by inverting tube several times.
+8. Place the tube in 65&#176;C waterbath for 15-20 min.
+9. Cool to room temp. 
+10 Add 2 mL of ice-cold **chloroform**.
+11. Mix on a rotating mixer for 30 to 60 minutes (more or less will reduce DNA yield). 
+12. Centrifuge, 2400g for 2 min.
+13. Transfer upper phase into a clean falcon tube with a sterile pipette.
+14. Precipitate the DNA by adding 2-3 mL of chilled **100% ethanol**, invert tube. DNA should appear in the solution. 
+15. Transfer the DNA to a 1.5 mL tube allow to air dry.
+16. Resuspend in 200 ul of **TE buffer**.
+17. Quantify DNA concentration with the spectrophotometer, 200-500 ng/ul is expected. 
+
+
+
+
+
+
+
+
+
+
+
+
+

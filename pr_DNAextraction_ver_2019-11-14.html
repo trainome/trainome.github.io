@@ -11,9 +11,8 @@
 
 
 
-<meta name="date" content="2019-08-15" />
 
-<title>Protocols</title>
+<title>Extraction of DNA from whole blood</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -295,21 +294,212 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Protocols</h1>
-<h4 class="date">2019-08-15</h4>
+<h1 class="title toc-ignore">Extraction of DNA from whole blood</h1>
 
 </div>
 
 
-<div id="current-protocols" class="section level2">
-<h2>Current protocols</h2>
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>This protocol is adopted from Bartlett, J. M. S. and D. Stirling (2003), PCR protocols, Ch 6.</p>
+</div>
+<div id="materials" class="section level2">
+<h2>Materials</h2>
 <ul>
-<li><a href="pr_trizol_ver_20191111.html">Extraction of RNA and protein from muscle samples using Trizol reagent</a></li>
-<li><a href="pr_cdnasynthesis_ver_2019-11-12.html">cDNA synthesis using Superscript IV</a></li>
-<li><a href="pr_tissuehomogenization_ver_2019-11-12.html">General purpose muscle tissue homogenization protocol</a></li>
-<li><a href="pr_solutions_ver_2019-11-12.html">Solutions and buffers</a></li>
-<li><a href="pr_DNAextraction_ver_2019-11-14.html">Extraction of DNA from whole blood</a></li>
+<li>15 ml centrifuge tubes</li>
+<li>1.5 ml centrifuge tubes</li>
+<li>Waterbath (65°C)</li>
+<li>Tube rotator</li>
 </ul>
+<div id="solutions" class="section level3">
+<h3>Solutions</h3>
+<ul>
+<li>0.5 M EDTA, pH 8, for 1 l:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDTA</td>
+<td>146.1 g</td>
+</tr>
+<tr class="even">
+<td>NaOH</td>
+<td>~20g</td>
+</tr>
+</tbody>
+</table>
+<p>Add EDTA to 800 mL ddH<sub>2</sub>O, adjust pH with NaOH. Autoclave 15 psi, 15 min.</p>
+<ul>
+<li>1 M Tris-HCl, pH 7.6, for 1 L:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>121.1 g</td>
+</tr>
+</tbody>
+</table>
+<p>Add to 800 mL ddH<sub>2</sub>O, adjust pH with HCl and make up to 1L. Autoclave 15 psi, 15 min.</p>
+<ul>
+<li>Reagent A, red blood cell lysis, pH 8. For 1L:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.01 M</td>
+<td>10 ml 1 M Tris-HCl</td>
+</tr>
+<tr class="even">
+<td>Sucrose</td>
+<td>320 mM</td>
+<td>109.54 g</td>
+</tr>
+<tr class="odd">
+<td>MgCl<sub>2</sub></td>
+<td>5 mM</td>
+<td>0.47 g</td>
+</tr>
+<tr class="even">
+<td>Triton X-100</td>
+<td>1%</td>
+<td>10 mL</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8 with NaOH. Autoclave 10 psi, 10 min.</p>
+<ul>
+<li>Reagent B, cell lysis</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.4 M</td>
+<td>400 mL 1 M Tris-HCl</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>150 mM</td>
+<td>8.76 g</td>
+</tr>
+<tr class="odd">
+<td>EDTA</td>
+<td>0.06 M</td>
+<td>120 mL 0.6 M EDTA</td>
+</tr>
+<tr class="even">
+<td>SDS</td>
+<td>1%</td>
+<td>10 g<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8 and make to 1 L with ddH<sub>2</sub>O. Autoclave at 15 min at 15 psi<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
+<ul>
+<li>5 M sodium perchlorate, for 100 mL:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>sodium perchlorate</td>
+<td>70 g</td>
+</tr>
+</tbody>
+</table>
+<p>Dissolve in 80 mL ddH<sub>2</sub>O make to 100 mL.</p>
+<ul>
+<li>TE-buffer, for 1 L:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.01 M</td>
+<td>10 mL 1 M Tris-HCl ph 7.6</td>
+</tr>
+<tr class="even">
+<td>EDTA</td>
+<td>1 mM</td>
+<td>2 mL 0.5 EDTA</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 7.6, make to 1 L, autoclave 15 min at 15 psi.</p>
+<ul>
+<li><p>Chloroform, chill to 4°C.</p></li>
+<li><p>Ethanol (100%), chill to 4°C.</p></li>
+</ul>
+</div>
+</div>
+<div id="methods" class="section level2">
+<h2>Methods</h2>
+<p>Blood can be collected in heparin or EDTA-vacutainer tubes. Process samples on the same days as collection if stored at room temp.</p>
+<ol style="list-style-type: decimal">
+<li>Move 3mL of whole blood to a 15 mL tube.</li>
+<li>Add 12 mL of <strong>Reagent A</strong></li>
+<li>Mix slowly in a rotator, 4 min at room temp.</li>
+<li>Centrifuge 3000 g for 5 min at room temp.</li>
+<li>Discard supernatant without disturbing cell pellet. Remove all moisture by inverting and blotting on paper or by pipetting.</li>
+<li>Add 1 mL of <strong>Reagent B</strong>, vortex to resuspend the cell pellet.</li>
+<li>Add 250 ul of <strong>5 M sodium perchlorate</strong> and mix by inverting tube several times.</li>
+<li>Place the tube in 65°C waterbath for 15-20 min.</li>
+<li>Cool to room temp. 10 Add 2 mL of ice-cold <strong>chloroform</strong>.</li>
+<li>Mix on a rotating mixer for 30 to 60 minutes (more or less will reduce DNA yield).</li>
+<li>Centrifuge, 2400g for 2 min.</li>
+<li>Transfer upper phase into a clean falcon tube with a sterile pipette.</li>
+<li>Precipitate the DNA by adding 2-3 mL of chilled <strong>100% ethanol</strong>, invert tube. DNA should appear in the solution.</li>
+<li>Transfer the DNA to a 1.5 mL tube allow to air dry.</li>
+<li>Resuspend in 200 ul of <strong>TE buffer</strong>.</li>
+<li>Quantify DNA concentration with the spectrophotometer, 200-500 ng/ul is expected.</li>
+</ol>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Add SDS after autoclaving.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Add SDS after autoclaving.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
 
 
