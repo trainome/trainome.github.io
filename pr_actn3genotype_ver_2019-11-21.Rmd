@@ -1,0 +1,64 @@
+---
+title: "Determination of ACTN3 genotype"
+output: html_document
+---
+
+## Background
+This protocols is adopted from Schadock et al. (2015)[^1] and is suitable for determining the ACTN3 genotype. 
+
+[^1]: Schadock, I., et al. (2015). "Simple Method to Genotype the ACTN3 r577x Polymorphism." Genet Test Mol Biomarkers 19(5): 253-257.
+
+## Materials
+
+- A PCR machine
+- Specific primers
+
+Primers used un Schadock et al. 
+
+|Primer |sequence|Final reaction concentrations| Volume of 100 uM in 500 ul primer mix|
+|-------|--------|-----------------------------|------------------------------|
+|hsACTN3_F1 |CGCCCTTCAACAACTGGCTGGA| 0.5 uM| 10 ul|
+|hsACTN3_R1 |GATGAGCCCGAGACAGGCAAGG| 0.5 uM | 10 ul|
+|hsACTN3Tif_F2 |CAACACTGCCCGAGGCTGACTG| 0.125 uM | 2.5 ul |
+|hsACTN3Cir_R2|CATGATGGCACCTCGCTCTCGG| 0.25 uM   | 5 ul |
+
+Add primers to 472.5 ul nuclease free H~2~O to make a 4X primer mix.
+
+
+- PCR master mix
+- PCR reactions tubes
+
+
+
+## Methods
+
+- Extract DNA (from whole blood or muscle)
+- Mix sample, master mix and primer mix per reaction in a PCR reaction tube:
+
+|Component |Volume |
+|----------|-------|
+|2X Master mix|10 ul|
+|Primer mix |5 ul |
+|Sample (correspondning to 100-250 ng genomic DNA)| 5 ul |
+
+- Run the PCR reaction 
+
+|Time |Temperature |Cycles|
+|-----|-------------|-----|
+|2 min | 95&deg;C  |
+|*10 sec*| *95&deg;C*  | |
+|*10 sec*| *68&deg;C*  |*35 cycles*  |
+|*45 sec*| *72&deg;C* | |
+|2 min | 72&deg;C | |
+
+- Run the PCR product on a [2% agarose gel](pr_agaroseelectrophoresis_ver_2019-11-20.html) using 2-5 ul of the reaction mix. Use a DNA ladder and H~2~O as negative control.
+
+### Analysis
+
+A R/R genotype produces two bands at 690 and 413 bp. A X/X genotype produces two bands at 690 and 318 bp.
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+---
+title: "General DNA Agarose Gel Electrophoresis protocol"
+output: html_document
+---
+
+## Background
+
+This protocol is suitable for electrophoresis separation of DNA fragments from PCR reactions. 
+
+## Solutions
+
+- 10X TBE, for 1 l:
+
+|Component |Weight  |Concentration |
+|----------|--------|--------------------|
+|Tris base      |121.1 g|  1M |
+|Boric acid|61.8 g     |1 M| 
+|EDTA (disodium salt)|7.4 g | 0.02 M|
+
+- 6X DNA loading dye, for 10 ml:
+
+|Component |Amount  |Concentration |
+|----------|--------|--------------------|
+|Glycerol  |3 ml    |30 %      |
+|Bromophenol blue| 25 mg | 0.25% |
+
+Make to 10 ml final volume.
+
+## Materials
+
+- Horizontal electrophoresis unit with power supply
+- Conical flask for gel preparations
+- Heat (microwave or hotplate)
+- Gel combs
+
+## Methods
+
+### Gel preparation
+
+- Dilute 10X TBE buffer to make a 1X solution (100 ml in 900 ml H~2~O).
+- Add 100 ml of 1X TBE to a conical beaker. Add agarose to create a suitable percentage gel (2 g for 2% gel).
+- If using Sybr Safe gel stain, add the stain 1:10000 to the mixture (10 ul in 100 ml)
+- Heat the mixture until the solution gets clear (e.g. 1 min in microwave or on a hotplate).
+- Let the mixture cool to about 60 degrees (it should feel warm but not hot).
+- Pour the mixture into a gel casting tray and place the comb at its designated place. 
+- The gel will polymerize in 1 h, remove the comb after polymerization.
+
+### Running the gel
+
+- Place the gel in the electrophoresis unit.
+- Pour 1X TBE into the electrophoresis tank to cover the well.
+- Mix samples with loading dye (1 ul of 6X dye per every 5 ul of sample).
+- Add DNA ladder and samples to the wells
+- Set voltage to 150 V, run four about 1 h (until dye is about 80% through), check that samples moves towards the positive elctrode!
+
+### Visualisation
+
+- Visuialize the gel i G:Box using the UV light emitter and Sybr green settings.
+
+
+
+
+
+
+
+

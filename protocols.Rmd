@@ -9,3 +9,5 @@ title: "Protocols"
 - [General purpose muscle tissue homogenization protocol](pr_tissuehomogenization_ver_2019-11-12.html)
 - [Solutions and buffers](pr_solutions_ver_2019-11-12.html)
 - [Extraction of DNA from whole blood](pr_DNAextraction_ver_2019-11-14.html)
+- [ACTN3 genotyping](pr_actn3genotype_ver_2019-11-21.html)
+- [General DNA Agarose Gel Electrophoresis protocol](pr_agaroseelectrophoresis_ver_2019-11-20.html)
