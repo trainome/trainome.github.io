@@ -1,0 +1,175 @@
+---
+title: "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE"
+output: html_document
+---
+
+## Background and overview
+
+Muscle samples are homogenized in sample buffer at approximatly 20 ul of buffer per 1 mg of tissue. Total protein concentration is estimated by Bradford assay (make sample buffer without bromophenol blue in order to quantify). Stock solutions are prepared for casting gels. On day 1, the separation gel is prepared and left to polymerized over night at 4 °C. On day 2 the the loading gel is prepared on top of the separation gel and samples are loaded. The gels run for approximately 44 hours at 4 °C. On day 4 the gels are stained.
+
+## Solutions
+
+|Component |Weight |
+|----------|-------|
+|Tris-base |6.055 g|
+
+Table: 0.5 M Tris pH 6.8, for 100 ml, adjust pH with HCl.
+
+
+
+|Component |Weight/Volume |
+|----------|--------------|
+|0.5 M Tris stock, pH 6.8|6.25 ml|
+|10% SDS | 10 ml |
+|Glycerol | 10 ml|
+|Mercaptoethanol | 2.5 ml |
+|Bromophenol Blue | ~25 mg |
+|ddH~2~O |To 50 ml |
+
+Table: Sample buffer, store in brown bottle at 4&#176;C
+
+|Component |Weight/Volume |
+|----------|-------|
+|Bis-solution (Bio-Rad 161-0142) |30 ml|
+|40% Acrylamide solution (Bio-Rad 161-0140)| 150 ml|
+|ddH~2~O | To 200 ml |
+
+Table: Acrylamide/Bis acrylamide stock (100:1), for 200 ml. Keep in brown bottle, 4&#176;C, good for 1-2 months.
+
+|Component |Weight/Volume |
+|----------|-------|
+|Bis solution (Bio-Rad 161-0142)|40 ml|
+|40% Acrylamide solution| 75 ml |
+
+Table: Acrylamide/Bis stock (37.5:1), for 100 ml, store at 4&#176;C. (Commercial alternative Bio-Rad 30% Acr/Bis sol. 161-0158)
+
+|Component |Weight/Volume |
+|----------|-------|
+|Tris-base|36.34 g|
+|10 % SDS|8 ml|
+
+Table: Lower Tris Buffer, for 200 ml. Adjust pH to 8.8. Store in brown bottle at 4&#176;C.
+
+
+|Component |Weight/Volume |
+|----------|-------|
+|Tris-base|6.06 g|
+|10 % SDS|4 ml|
+
+Table: Upper Tris Buffer, for 100 ml. Adjust pH to 6.8. Store in brown bottle at 4&#176;C.
+
+
+|Component |Weight/Volume |
+|----------|-------|
+|Glycine|3.754 g|
+|ddH~2~O |To 50 ml|
+
+Table: 1M Glycin, for 50 ml
+
+### Fresh solutions (make on day of experiment)
+
+|Component |Weight/Volume |
+|----------|-------|
+|Tris-base|3.03 g|
+|Glycine|14.4 g|
+|10% SDS |10 ml |
+|ddH~2~O |To 1000 ml|
+
+Table: Running buffer, for 1000 ml.
+
+|Component |Weight/Volume |
+|----------|-------|
+|APS (Ammonium persulfate)|~200 mg|
+|ddH~2~O |To 2 ml|
+
+Table: APS 10%
+
+
+|Component |Weight/Volume |
+|----------|-------|
+|Acrylamid/Bis (100:1) (from stock) |13.4 ml| 
+|Lower Tris (from stock) |6.7 ml | 
+|dH2O   |7.5 ml | 
+|SDS 10% |2 ml   | 
+|1M Glycine (from stock) |5 ml   | 
+|Glycerol |15 ml  | 
+|APS |500 ul|
+|TEMED | 40 ul|
+
+Table: Separation gel, for 2 large size gels. De-gas solution by vacuum for 15 min before adding APS. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.
+
+
+|Component |Weight/Volume |
+|----------|-------|
+|Acrylamid/Bis (37.5:1) (from stock) |1 ml| 
+|Upper Tris (from stock) |2.5 ml | 
+|dH2O   |6.5 ml | 
+|APS |100 ul|
+|TEMED | 20 ul|
+
+Table: Stacking gel, for 2 large size gels. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.
+
+
+## Methods 
+
+### Assamble of glass plate sandwiches
+ 
+#### Materials
+
+- Two glass plates (one small and one large)
+- Two spacers
+- Two clamps
+- One alignement card
+
+1. Put the large glass plate on the table
+2. Put the alignment card on the glass plate with spacers on both sides
+3. Place the smaller glass plate on top, align glass plate bottoms.
+4. Place clamps on both sides, adjust the bottom surface of the sandwich.
+5. Place a gray gasket in the casting slot.
+6. Place the sandwich in the casting slot and tighten. The seal can be checked by pouring dH2O into the sandwich.
+7. Mark the plate sandwich for future reference.
+
+#### Preparing separation gel
+
+**Be careful when handeling acrylamide and bis-acrylamide solutions. Use gloves!** 
+
+1. Place a filtering flask (with hose connection) with a magnet on a stirrer.
+2. Combine components of the *Separation gel*. Let the solution stir slowly for 2 min before adding the last 7.5 ml dH2O, let solution stir for additional 5-10 min.
+4. Degas moderately for approx. 5-15 min.
+5. Add 500 ul APS-solution
+6. Let the solution stir (slowly for 2 min).
+7. Add 40 ul TEMED
+8. Let the solution stir for 45 sec (Not more), and pour the solution between the glass plates using a 5 ml pipette.
+9. Immediatly add 0.75 ml isobutanol on top of the gel.
+10. Let the gel polymerize overnight at 4°C.
+
+#### Preparing stacking gel (day 2)
+
+1. Use a 10 or 20 ml beaker with a small magnet stirrer.
+2. Add components of the *Stacking gel* (except APS and TEMED). Let the solution stir for at least 5 min.
+3. Clean a comb with EtOH.
+5. Pour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off and remove the remaining dH2O with paper (carefully, without disturbing the gel).
+6. Put the cleaned comb between the glass plates, leave 0.5 cm between the lower edge of the comb and glass plate for adjustments.
+7. Add to beaker: 100 µl APS-solution, stir 2 min, 20 µl TEMED, stir 45 sec.
+8. Using a 5 ml pipette pour the solution slowly between the comb and spacer, avoid air boubles. Fill the sandwich to ¾, push down the comb, and top of. Air bubbles can be removed by tapping the comb prior to topping the sandwich with solution.
+9. Let the stacking gel polymerize for at least 60 min before loading.
+
+#### Loading the gel
+
+1.	When the gel polymerize, prepare running buffer for the planned number/size of electrophoresis.
+2.	Take the sandwich out of the stand and attach it to the elctrophoresis core.
+3.	Mark the bottom of every well with a line and number the wells.
+4.	Pour running buffer into the lower buffer chamber.
+5.	Put the electrophoresis core (with the sandwich attached) in the chamber.
+6.	Pour running buffer into the top chamber.
+7.	Slowly remove the comb using to forceps.
+8.	Remove bubbles from under the gel.
+9.	Load the gel with sample.
+10.	When all wells are loaded, slowly pipette 400 µl 2-mercaptoethanol in the upper buffer (adjust to chamber size).
+11.	Put the lid on the apparatus, plug it to the power supply and run gels at 70 V in room temperatur until samples has reached the separating gel (approx 1.5 h). Place the chamber at 4°C for the remaining ~42 h.
+
+### Gel staining
+
+Use commercial gel staining before visualization.
+
+

@@ -11,3 +11,4 @@ title: "Protocols"
 - [Extraction of DNA from whole blood](pr_DNAextraction_ver_2019-11-14.html)
 - [ACTN3 genotyping](pr_actn3genotype_ver_2019-11-21.html)
 - [General DNA Agarose Gel Electrophoresis protocol](pr_agaroseelectrophoresis_ver_2019-11-20.html)
+- [Determination of relative myosin heavy chain isoform proportions by SDS-PAGE](pr_myhc-sds-page_ver_2019-12-01.html)
