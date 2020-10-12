@@ -1,5 +1,5 @@
 name: "trainome -- Manuals"
-output_dir: "."
+output_dir: "./docs"
 navbar:
   title: "Trainome"
   left:
