@@ -4,3 +4,5 @@ date: 2019-08-15
 ---
 
 # Software tutorials
+
+## [PCR product size determination with ImageJ and R](sw_pcr_size_determination.html)
