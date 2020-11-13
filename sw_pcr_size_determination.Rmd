@@ -20,17 +20,23 @@ A general protocol for agarose gel electrophoresis can be found under protocols.
 # Measuring product migration distance in ImageJ
 
 - Start ImageJ, open up a gel image (Figure 1).
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_raw.png">
+
+<img src="img/gel-electrophoresis-tutorial/gel_raw.png"><br>
 - Invert the image (Shift + Ctrl + I) and rotate it (Image > Transform > Rotate) so that the top of the gel (wells) are on the left (Figure 2).
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_inverted_rotated.png">
+
+<img src="img/gel-electrophoresis-tutorial/gel_inverted_rotated.png"><br>
 - Select the Rectangle tool in ImageJ and draw a box covering the wells of interest and the ladder, press Shift + X to crop the image (Figure 3). Make sure the wells runs horizontally, adjust the rotation otherwise.
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_cropped.png">
-- Using the Rectangle tool, select the well containing the ladder and press Ctrl + 1, move the Rectangle to the next well and press Ctrl + 2. Select all wells of interest using Ctrl + 2 except for the last well, select the last well using Ctrl + 3. A new window will appear (Figure 4). 
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_mapped.png">
+
+<img src="img/gel-electrophoresis-tutorial/gel_cropped.png"><br>
+- Using the Rectangle tool, select the well containing the ladder and press Ctrl + 1, move the Rectangle to the next well and press Ctrl + 2. Select all wells of interest using Ctrl + 2 except for the last well, select the last well using Ctrl + 3. A new window will appear (Figure 4).
+
+<img src="img/gel-electrophoresis-tutorial/gel_mapped.png"><br>
 - The curves in the new window represents the pixel intensity of each well. Go to the Analyze > Set Measurements in ImageJ and de-select all measurement, a single decimal places is sufficient. Select the Multi-point tool and mark every peak in each well (Figure 5).
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/density_peaks.png">
+
+<img src="img/gel-electrophoresis-tutorial/density_peaks.png"><br>
 When all peaks are marked press Ctrl + M. A new window should appear with x and y measurements (Figure 6).
-<img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/results.png">
+
+<img src="img/gel-electrophoresis-tutorial/results.png"><br>
 
 # Calculate unknown product sizes based ladder estimates
 

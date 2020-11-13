@@ -475,12 +475,14 @@ $(document).ready(function () {
 <div id="measuring-product-migration-distance-in-imagej" class="section level1">
 <h1>Measuring product migration distance in ImageJ</h1>
 <ul>
-<li>Start ImageJ, open up a gel image (Figure 1). <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_raw.png"></li>
-<li>Invert the image (Shift + Ctrl + I) and rotate it (Image &gt; Transform &gt; Rotate) so that the top of the gel (wells) are on the left (Figure 2). <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_inverted_rotated.png"></li>
-<li>Select the Rectangle tool in ImageJ and draw a box covering the wells of interest and the ladder, press Shift + X to crop the image (Figure 3). Make sure the wells runs horizontally, adjust the rotation otherwise. <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_cropped.png"></li>
-<li>Using the Rectangle tool, select the well containing the ladder and press Ctrl + 1, move the Rectangle to the next well and press Ctrl + 2. Select all wells of interest using Ctrl + 2 except for the last well, select the last well using Ctrl + 3. A new window will appear (Figure 4). <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/gel_mapped.png"></li>
-<li>The curves in the new window represents the pixel intensity of each well. Go to the Analyze &gt; Set Measurements in ImageJ and de-select all measurement, a single decimal places is sufficient. Select the Multi-point tool and mark every peak in each well (Figure 5). <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/density_peaks.png"> When all peaks are marked press Ctrl + M. A new window should appear with x and y measurements (Figure 6). <img style="float: right;" width=300 src="img/gel-electrophoresis-tutorial/results.png"></li>
+<li>Start ImageJ, open up a gel image (Figure 1).</li>
 </ul>
+<p><img src="img/gel-electrophoresis-tutorial/gel_raw.png"><br> - Invert the image (Shift + Ctrl + I) and rotate it (Image &gt; Transform &gt; Rotate) so that the top of the gel (wells) are on the left (Figure 2).</p>
+<p><img src="img/gel-electrophoresis-tutorial/gel_inverted_rotated.png"><br> - Select the Rectangle tool in ImageJ and draw a box covering the wells of interest and the ladder, press Shift + X to crop the image (Figure 3). Make sure the wells runs horizontally, adjust the rotation otherwise.</p>
+<p><img src="img/gel-electrophoresis-tutorial/gel_cropped.png"><br> - Using the Rectangle tool, select the well containing the ladder and press Ctrl + 1, move the Rectangle to the next well and press Ctrl + 2. Select all wells of interest using Ctrl + 2 except for the last well, select the last well using Ctrl + 3. A new window will appear (Figure 4).</p>
+<p><img src="img/gel-electrophoresis-tutorial/gel_mapped.png"><br> - The curves in the new window represents the pixel intensity of each well. Go to the Analyze &gt; Set Measurements in ImageJ and de-select all measurement, a single decimal places is sufficient. Select the Multi-point tool and mark every peak in each well (Figure 5).</p>
+<p><img src="img/gel-electrophoresis-tutorial/density_peaks.png"><br> When all peaks are marked press Ctrl + M. A new window should appear with x and y measurements (Figure 6).</p>
+<p><img src="img/gel-electrophoresis-tutorial/results.png"><br></p>
 </div>
 <div id="calculate-unknown-product-sizes-based-ladder-estimates" class="section level1">
 <h1>Calculate unknown product sizes based ladder estimates</h1>
