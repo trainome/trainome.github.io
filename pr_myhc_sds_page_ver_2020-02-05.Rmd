@@ -1,0 +1,182 @@
+---
+title: "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE"
+author: Max Ullrich, Chris Sylstad, Alexander Josdal
+output: html_document
+bibliography: "./bibliography/sds-page-bib.bib"
+---
+
+
+## Background and protocol overview
+
+Myosin heavy chains can be identified by eletrophoresis separation in acrylamide gels and in gel staining. The following protocol is an optimiziation based on [previous protocol](./pr_myhc-sds-page_ver_2019-12-01.html) and published protocols [@RN1738; @RN2354;@RN2353;@RN2350;@RN2352].
+
+Stock solutions are prepared in advance. The entire protocol can be completed in about 30 hours. Start by casting the separating gel and leave for polymerization (30-90min). After ca. 90 min you can cast the stacking gel (separating gel continues to shrink while polymerizing for about 90 min. Lanes will shrink if you cast it earlier). Stacking gel should be left to polymerize 30-90 min. Sample preparation can be done while polymerization is taking place. 
+
+Mini-gel wells should be loaded with a total protein amount of 1,5-2,5 ug. 
+Electrophoresis should run over night; 20 hours at 140V, 4°C. 
+On day 2 (after 20 hours) gels are stained and analyzed. 
+
+## Health and safety
+CAUTION: Always use gloves when working with the acrylamide/bis solution as acrylamide is neurotoxic. 
+
+
+
+## Recipe for six Mini-gels
+
+### Separating gel
+Mix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. When pipetting glycerol, reverse-pipette using a 10-ml pipette that have been cut (3 mm) to increase the width of the pipette. De-gas solution by vacuum for 10 min. Add APS (stir 2 min) and TEMED (stir 45 sec) to initialize gel polymerization. Quickly pipette 6 ml per mini-gel to cast gels. Work quickly and be careful not to leave bubbles while casting. Add 0.5 ml isobutanol on top of gel just after casting to speed up polymerization. Wait 30-90 min for total polymerization.  Note: Gel shrinks during polymerization. Use leftovers to confirm polymerization. 
+
+| Component                   | Stock solution | Volume (total volume 50 ml)  | Final concentration |
+|-----------------------------|----------------|------------------------------|---------------------|
+| Lower SDS/Tris stock ph 8.8 | 2%/1M          | 10 ml                        | 200 mM/0.4 %        |
+| Glycerol                    |                | 15 ml                        | 30 %                |
+| Glycin stock                | 1M             | 5 ml                         | 100 mM              |
+| Acr/Bis stock               | 20.5%/0.41%    | 19.5 ml                      | 8 %                 |
+| APS                         | 10%            | 500 ul                       | 0.1 %               |
+| TEMED                       |                | 25 ul                        | 0.05 %              |
+
+### Stacking gel
+Mix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. De-gassing by vacuum may increase quality of the gel. Add APS and TEMED to initialize polymerization; Add APS first, stir solution for 2 min before adding TEMED, let solution stir 45s before casting the gel. Cast appropriate amount per minigel, be careful to not leave bubbles. Lower the comb last 1-2 mm after pouring. Wait 30-90 min for total polymerization. Use leftovers to confirm polymerization. 
+
+
+| Component                   | Stock solution | Volume (total volume 25 ml)  | Final concentration |
+|-----------------------------|----------------|------------------------------|---------------------|
+| ddH2O                       |                | 10.15 ml                     |                     |
+| Upper SDS/Tris stock pH 6.8 | 5%/875 mM      | 2 ml                         | 70 mM/0.4 %         |
+| Glycerol                    |                | 7.5 ml                       | 30%                 |
+| Acr/Bis stock               | 20.5%/0.41%    | 4.88 ml                      | 4%                  |
+| EDTA stock                  | 0.5 M          | 200 ul                       | 4 mM                |
+| APS                         | 10%            | 250 ul                       | 0.1%                |
+| TEMED                       |                | 12.5 ul                      | 0.05 %              |
+
+
+### Running buffer
+
+The running buffer is made as upper- and lower concentrations. The upper buffer is 6X the lower buffer. Prepare the lower buffer by combining 100 ml upper with 500 ml ddH~2~O. Add Me-EtOH after preparing the lower buffer. (No mercaptoethanol in the lower buffer).
+
+| Component       | Weight/Volume    | Final concentration:          |
+|-----------------|------------------|-------------------------------|
+| Tris            | 18.15 g          | 300 mM                        |
+| Glycine         | 16.88 g          | 450 mM                        |
+| SDS 20%         | 15 ml            | 0.3 %                         |
+| dH2O            |                  | add to total volume of 500 ml |
+| Mercaptoethanol | 121 ul per 100ml | 0.121 %                       |
+|                 |                  |                               |
+|                 |                  |                               |
+
+
+## Detailed step-by-step
+
+Assamble gel casting unit:
+Materials (per one mini-gel)
+•	Microgel cast
+o	1 glass plate
+o	1 metal plate
+o	2 spacers
+o	1 comb
+o	1 Microgel rack
+•	Two clamps
+•	Electrophoresis apparatus
+o	1 electrophoresis rack
+o	1 electrophoresis machine
+•	4°C environment/room.
+1.	Wash everything thoroughly with soap, dry, then clean with EtOH before use. 
+2.	Assemble microgel cast in microgel rack. Leave glass and metal plate ca. 1 mm under the edge of the microgel rack to ensure tight seal.
+3.	Check the seal with dH2O. 
+Preparing separation gel
+Be careful when handling acrylamide and bis-acrylamide solutions. Use gloves!
+1.	Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer.
+2.	Combine components of the Separation gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 
+3.	Degas for 10 min.
+4.	Add APS-solution (pipette to mix) and let the solution stir for 2 min.
+5.	Add TEMED (pipette to mix) and let the solution stir for 45 sec.
+6.	Using a 10 ml pipette pour 6 ml of solution into the gel cast.
+7.	Immediately add 0.75 ml isobutanol on top of the gel.
+8.	Let polymerize at room temperature for 30-90 min. 
+Preparing stacking gel 
+1.	Pour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off (remove the remaining dH2O with paper if necessary. Carefully, without disturbing the gel.)
+2.	Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer.
+3.	Combine components of the Stacking gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 
+4.	Add APS-solution (pipette to mix) and let the solution stir for 2 min.
+5.	Add TEMED (pipette to mix) and let the solution stir for 45 sec.
+6.	Using a 5-10 ml pipette pour the appropriate amount of solution into the gel cast. Gel should fill the cast to the top. 
+7.	Let polymerize at room temperature for at least 60 min before loading. 
+Preparing Samples (for loading)
+1.	Complete Protein Extraction, Re-Suspension and Concentration-count (separate protocols)
+2.	Determine lane loads; 1.5 – 2.5 ug (this determines the dilution concentration you are aming for in the next step). 
+3.	Dilute samples with Kopec Buffer Solution to reach appropriate/equal concentrations (1ug/ul will give you a good loading ammount).
+4.	Dilute samples with 4x Laemmli Solution Buffer: 1:4 Ratio (3 parts sample/1 part buffer).
+5.	Incubate 5 min at 95°C
+6.	Ready to load.
+NB: Vortex thoroughly at every step!
+Loading the microgel
+1.	While the microgel polymerizes, prepare running buffers
+2.	Take the sandwich out of the stand and attach it to the electrophoresis rack.
+3.	Mark the bottom of every well with a line and number the gels.
+NB: for the next steps you need to be efficient!
+4.	Pour ca. 75ml of “upper” running buffer in the upper chamber.
+5.	Carefully remove the comb to expose the lanes.
+6.	Load the gel with the samples according to preplanned loading scheme. Total protein amount should be 1.5-2.5 ug per lane for optimal separation of MyHC IIa and IIx fibers. Do not use lane 1 and 10 (proximity to edge of gel results in smear). 
+7.	Add “lower” running buffer to bottom chamber.
+8.	Place lid on electrophoresis rack, and place entire apparatus in 4°C environment.
+9.	Run electrophoresis for 20 hours at 140V
+Gel staining
+Use commercial gel staining before visualization.
+
+
+
+## Stock solutions recipes
+
+
+### Lower tris/SDS buffer
+For 200 ml, adjust pH to 8.8 with HCl.
+
+| Component | Molecular weight | Weight/Volume for 200 ml | Final concentration |
+|-----------|------------------|--------------------------|---------------------|
+| Tris      | 121.14           | 24.2 g                   | 1 M                 |
+| SDS (20%) |                  | 20 ml                    | 2%                  |
+
+### Upper tris/SDS 
+For 200 ml, adjust pH to 6.8 with HCl.
+
+| Component | Molecular weight | Weight/Volume for 200 ml | Final concentration |
+|-----------|------------------|--------------------------|---------------------|
+| Tris      | 121.14           | 21.18 g                  | 875 mM              |
+| SDS (20%) |                  | 50 ml                    | 5%                  |
+
+
+### Acrylamide/Bis stock (50:1)
+
+CAUTION: Handle acrylamide with care, toxic!
+
+| Component        | Concentration (Stock) | Weight/Volume for 250 ml | Final concentration |
+|------------------|-----------------------|--------------------------|---------------------|
+| Acrylamide       | 40%                   | 128.125 ml               | 20.5%               |
+| Bis              | 2%                    | 51.25 ml                 | 0.41%               |
+| ddH<sub>2</sub>O |                       | 70.625 ml                |                     |
+
+### Glycin 1M
+
+| Component | Molecular weight | Weight/Volume for 50 ml  | Final concentration |
+|-----------|------------------|--------------------------|---------------------|
+| Glycin    | 75.07            | 3.75  g                  | 1 M                 |
+
+
+### APS (10%)
+
+| Component            | Weight/Volume for 1 ml | Final concentration |
+|----------------------|------------------------|---------------------|
+| Ammonium persulphate | 0.1  g                 | 10 %                |
+
+
+### Ethylenediamine tetraacetic acid (EDTA) 0.5 M
+
+| Component      | Molecular weight | Weight/Volume for 500 ml | Final concentration |
+|----------------|------------------|--------------------------|---------------------|
+| Na2 EDTA 2 H2O | 372.24           | 93.05 g                  | 0.5 M               |
+
+Stir EDTA and ~ 400 ml ddH<sub>2</sub>O and add ~ 10 g NaOH pellets to adjust pH to 8.0.
+
+
+
+

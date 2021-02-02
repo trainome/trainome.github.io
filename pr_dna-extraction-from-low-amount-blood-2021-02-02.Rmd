@@ -1,0 +1,32 @@
+---
+title: "DNA extraction from low volume blood samples"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Blood collection
+
+1. Blood (20 &mu;l) can be collected from capillary sampling.
+2. Put the sample in an equal amount of Trizol in a 1.5 ml centrifuge tube.
+
+## DNA extraction
+
+1. Centrifuge the Trizol/whole-blood mixture (5 min, 12000 g, 4&deg;C)
+2. Add 10 &mu;l of chloroform, vortex 2-3 min and centrifuge (15 min, 12000 g, 4&deg;C). 
+3. If RNA is to be extracted, transfer the upper aquatic phase to a fresh tube, otherwise discared the upper phase.
+4. Transfer the remaining supernatant to a fresh tube and add 10 &mu;l of 100% cold methanol, incubate on ice for 5 min.
+5. Centrifuge (5 min, 2000 g, 4&deg;C), discard the liquid phase and resuspend the pellet in 75% ice cold ethanol. Incubate 30 min, dry and add 5 &mu;l of DPCE treated water.
+
+## RNA extraction
+
+1. Mix the aquaous phase separated from step 3 with 10 &mu;l of ice-cold isopropanol. Centrifuge (10 min, 12000 g, 4&deg;C).
+2. Discard the supernatant, add 75% ice-cold methanol, centrifuge (5 min, 7500 g, 4&deg;C).
+3. Dry the pellet and add 5 &mu;l of DPCE treated water.
+
+## DNA and RNA quality and quantity
+
+Determine quantity and quality using a spectrophotometer with DEPC water as blank.

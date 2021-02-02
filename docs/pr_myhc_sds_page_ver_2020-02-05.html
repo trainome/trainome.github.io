@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Max Ullrich, Chris Sylstad, Alexander Josdal" />
+
+
+<title>Determination of relative myosin heavy chain isoform proportions by SDS-PAGE</title>
+
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Trainome</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="projects.html">Project Management</a>
+</li>
+<li>
+  <a href="protocols.html">Protocols</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="faq.html">FAQ</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/trainome">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Determination of relative myosin heavy chain isoform proportions by SDS-PAGE</h1>
+<h4 class="author">Max Ullrich, Chris Sylstad, Alexander Josdal</h4>
+
+</div>
+
+
+<div id="background-and-protocol-overview" class="section level2">
+<h2>Background and protocol overview</h2>
+<p>Myosin heavy chains can be identified by eletrophoresis separation in acrylamide gels and in gel staining. The following protocol is an optimiziation based on <a href="./pr_myhc-sds-page_ver_2019-12-01.html">previous protocol</a> and published protocols <span class="citation">(Bamman et al. 1999; Kohn and Myburgh 2006; Kubis and Gros 1997; Scheffler, Leitner, and Wright 2018; Talmadge and Roy 1993)</span>.</p>
+<p>Stock solutions are prepared in advance. The entire protocol can be completed in about 30 hours. Start by casting the separating gel and leave for polymerization (30-90min). After ca. 90 min you can cast the stacking gel (separating gel continues to shrink while polymerizing for about 90 min. Lanes will shrink if you cast it earlier). Stacking gel should be left to polymerize 30-90 min. Sample preparation can be done while polymerization is taking place.</p>
+<p>Mini-gel wells should be loaded with a total protein amount of 1,5-2,5 ug. Electrophoresis should run over night; 20 hours at 140V, 4°C. On day 2 (after 20 hours) gels are stained and analyzed.</p>
+</div>
+<div id="health-and-safety" class="section level2">
+<h2>Health and safety</h2>
+<p>CAUTION: Always use gloves when working with the acrylamide/bis solution as acrylamide is neurotoxic.</p>
+</div>
+<div id="recipe-for-six-mini-gels" class="section level2">
+<h2>Recipe for six Mini-gels</h2>
+<div id="separating-gel" class="section level3">
+<h3>Separating gel</h3>
+<p>Mix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. When pipetting glycerol, reverse-pipette using a 10-ml pipette that have been cut (3 mm) to increase the width of the pipette. De-gas solution by vacuum for 10 min. Add APS (stir 2 min) and TEMED (stir 45 sec) to initialize gel polymerization. Quickly pipette 6 ml per mini-gel to cast gels. Work quickly and be careful not to leave bubbles while casting. Add 0.5 ml isobutanol on top of gel just after casting to speed up polymerization. Wait 30-90 min for total polymerization. Note: Gel shrinks during polymerization. Use leftovers to confirm polymerization.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Stock solution</th>
+<th>Volume (total volume 50 ml)</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lower SDS/Tris stock ph 8.8</td>
+<td>2%/1M</td>
+<td>10 ml</td>
+<td>200 mM/0.4 %</td>
+</tr>
+<tr class="even">
+<td>Glycerol</td>
+<td></td>
+<td>15 ml</td>
+<td>30 %</td>
+</tr>
+<tr class="odd">
+<td>Glycin stock</td>
+<td>1M</td>
+<td>5 ml</td>
+<td>100 mM</td>
+</tr>
+<tr class="even">
+<td>Acr/Bis stock</td>
+<td>20.5%/0.41%</td>
+<td>19.5 ml</td>
+<td>8 %</td>
+</tr>
+<tr class="odd">
+<td>APS</td>
+<td>10%</td>
+<td>500 ul</td>
+<td>0.1 %</td>
+</tr>
+<tr class="even">
+<td>TEMED</td>
+<td></td>
+<td>25 ul</td>
+<td>0.05 %</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="stacking-gel" class="section level3">
+<h3>Stacking gel</h3>
+<p>Mix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. De-gassing by vacuum may increase quality of the gel. Add APS and TEMED to initialize polymerization; Add APS first, stir solution for 2 min before adding TEMED, let solution stir 45s before casting the gel. Cast appropriate amount per minigel, be careful to not leave bubbles. Lower the comb last 1-2 mm after pouring. Wait 30-90 min for total polymerization. Use leftovers to confirm polymerization.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Stock solution</th>
+<th>Volume (total volume 25 ml)</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ddH2O</td>
+<td></td>
+<td>10.15 ml</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Upper SDS/Tris stock pH 6.8</td>
+<td>5%/875 mM</td>
+<td>2 ml</td>
+<td>70 mM/0.4 %</td>
+</tr>
+<tr class="odd">
+<td>Glycerol</td>
+<td></td>
+<td>7.5 ml</td>
+<td>30%</td>
+</tr>
+<tr class="even">
+<td>Acr/Bis stock</td>
+<td>20.5%/0.41%</td>
+<td>4.88 ml</td>
+<td>4%</td>
+</tr>
+<tr class="odd">
+<td>EDTA stock</td>
+<td>0.5 M</td>
+<td>200 ul</td>
+<td>4 mM</td>
+</tr>
+<tr class="even">
+<td>APS</td>
+<td>10%</td>
+<td>250 ul</td>
+<td>0.1%</td>
+</tr>
+<tr class="odd">
+<td>TEMED</td>
+<td></td>
+<td>12.5 ul</td>
+<td>0.05 %</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="running-buffer" class="section level3">
+<h3>Running buffer</h3>
+<p>The running buffer is made as upper- and lower concentrations. The upper buffer is 6X the lower buffer. Prepare the lower buffer by combining 100 ml upper with 500 ml ddH<sub>2</sub>O. Add Me-EtOH after preparing the lower buffer. (No mercaptoethanol in the lower buffer).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+<th>Final concentration:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris</td>
+<td>18.15 g</td>
+<td>300 mM</td>
+</tr>
+<tr class="even">
+<td>Glycine</td>
+<td>16.88 g</td>
+<td>450 mM</td>
+</tr>
+<tr class="odd">
+<td>SDS 20%</td>
+<td>15 ml</td>
+<td>0.3 %</td>
+</tr>
+<tr class="even">
+<td>dH2O</td>
+<td></td>
+<td>add to total volume of 500 ml</td>
+</tr>
+<tr class="odd">
+<td>Mercaptoethanol</td>
+<td>121 ul per 100ml</td>
+<td>0.121 %</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="detailed-step-by-step" class="section level2">
+<h2>Detailed step-by-step</h2>
+<p>Assamble gel casting unit: Materials (per one mini-gel) • Microgel cast o 1 glass plate o 1 metal plate o 2 spacers o 1 comb o 1 Microgel rack • Two clamps • Electrophoresis apparatus o 1 electrophoresis rack o 1 electrophoresis machine • 4°C environment/room. 1. Wash everything thoroughly with soap, dry, then clean with EtOH before use. 2. Assemble microgel cast in microgel rack. Leave glass and metal plate ca. 1 mm under the edge of the microgel rack to ensure tight seal. 3. Check the seal with dH2O. Preparing separation gel Be careful when handling acrylamide and bis-acrylamide solutions. Use gloves! 1. Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer. 2. Combine components of the Separation gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 3. Degas for 10 min. 4. Add APS-solution (pipette to mix) and let the solution stir for 2 min. 5. Add TEMED (pipette to mix) and let the solution stir for 45 sec. 6. Using a 10 ml pipette pour 6 ml of solution into the gel cast. 7. Immediately add 0.75 ml isobutanol on top of the gel. 8. Let polymerize at room temperature for 30-90 min. Preparing stacking gel 1. Pour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off (remove the remaining dH2O with paper if necessary. Carefully, without disturbing the gel.) 2. Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer. 3. Combine components of the Stacking gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 4. Add APS-solution (pipette to mix) and let the solution stir for 2 min. 5. Add TEMED (pipette to mix) and let the solution stir for 45 sec. 6. Using a 5-10 ml pipette pour the appropriate amount of solution into the gel cast. Gel should fill the cast to the top. 7. Let polymerize at room temperature for at least 60 min before loading. Preparing Samples (for loading) 1. Complete Protein Extraction, Re-Suspension and Concentration-count (separate protocols) 2. Determine lane loads; 1.5 – 2.5 ug (this determines the dilution concentration you are aming for in the next step). 3. Dilute samples with Kopec Buffer Solution to reach appropriate/equal concentrations (1ug/ul will give you a good loading ammount). 4. Dilute samples with 4x Laemmli Solution Buffer: 1:4 Ratio (3 parts sample/1 part buffer). 5. Incubate 5 min at 95°C 6. Ready to load. NB: Vortex thoroughly at every step! Loading the microgel 1. While the microgel polymerizes, prepare running buffers 2. Take the sandwich out of the stand and attach it to the electrophoresis rack. 3. Mark the bottom of every well with a line and number the gels. NB: for the next steps you need to be efficient! 4. Pour ca. 75ml of “upper” running buffer in the upper chamber. 5. Carefully remove the comb to expose the lanes. 6. Load the gel with the samples according to preplanned loading scheme. Total protein amount should be 1.5-2.5 ug per lane for optimal separation of MyHC IIa and IIx fibers. Do not use lane 1 and 10 (proximity to edge of gel results in smear). 7. Add “lower” running buffer to bottom chamber. 8. Place lid on electrophoresis rack, and place entire apparatus in 4°C environment. 9. Run electrophoresis for 20 hours at 140V Gel staining Use commercial gel staining before visualization.</p>
+</div>
+<div id="stock-solutions-recipes" class="section level2">
+<h2>Stock solutions recipes</h2>
+<div id="lower-trissds-buffer" class="section level3">
+<h3>Lower tris/SDS buffer</h3>
+<p>For 200 ml, adjust pH to 8.8 with HCl.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Molecular weight</th>
+<th>Weight/Volume for 200 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris</td>
+<td>121.14</td>
+<td>24.2 g</td>
+<td>1 M</td>
+</tr>
+<tr class="even">
+<td>SDS (20%)</td>
+<td></td>
+<td>20 ml</td>
+<td>2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="upper-trissds" class="section level3">
+<h3>Upper tris/SDS</h3>
+<p>For 200 ml, adjust pH to 6.8 with HCl.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Molecular weight</th>
+<th>Weight/Volume for 200 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris</td>
+<td>121.14</td>
+<td>21.18 g</td>
+<td>875 mM</td>
+</tr>
+<tr class="even">
+<td>SDS (20%)</td>
+<td></td>
+<td>50 ml</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="acrylamidebis-stock-501" class="section level3">
+<h3>Acrylamide/Bis stock (50:1)</h3>
+<p>CAUTION: Handle acrylamide with care, toxic!</p>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="26%" />
+<col width="29%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration (Stock)</th>
+<th>Weight/Volume for 250 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Acrylamide</td>
+<td>40%</td>
+<td>128.125 ml</td>
+<td>20.5%</td>
+</tr>
+<tr class="even">
+<td>Bis</td>
+<td>2%</td>
+<td>51.25 ml</td>
+<td>0.41%</td>
+</tr>
+<tr class="odd">
+<td>ddH<sub>2</sub>O</td>
+<td></td>
+<td>70.625 ml</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="glycin-1m" class="section level3">
+<h3>Glycin 1M</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Molecular weight</th>
+<th>Weight/Volume for 50 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glycin</td>
+<td>75.07</td>
+<td>3.75 g</td>
+<td>1 M</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="aps-10" class="section level3">
+<h3>APS (10%)</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume for 1 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ammonium persulphate</td>
+<td>0.1 g</td>
+<td>10 %</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="ethylenediamine-tetraacetic-acid-edta-0.5-m" class="section level3">
+<h3>Ethylenediamine tetraacetic acid (EDTA) 0.5 M</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Molecular weight</th>
+<th>Weight/Volume for 500 ml</th>
+<th>Final concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Na2 EDTA 2 H2O</td>
+<td>372.24</td>
+<td>93.05 g</td>
+<td>0.5 M</td>
+</tr>
+</tbody>
+</table>
+<p>Stir EDTA and ~ 400 ml ddH<sub>2</sub>O and add ~ 10 g NaOH pellets to adjust pH to 8.0.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-RN1738" class="csl-entry">
+Bamman, M. M., M. S. Clarke, R. J. Talmadge, and D. L. Feeback. 1999. <span>“Enhanced Protein Electrophoresis Technique for Separating Human Skeletal Muscle Myosin Heavy Chain Isoforms.”</span> Journal Article. <em>Electrophoresis</em> 20 (3): 466–68. <a href="https://doi.org/10.1002/(SICI)1522-2683(19990301)20:3&lt;466::AID-ELPS466&gt;3.0.CO;2-7">https://doi.org/10.1002/(SICI)1522-2683(19990301)20:3&lt;466::AID-ELPS466&gt;3.0.CO;2-7</a>.
+</div>
+<div id="ref-RN2354" class="csl-entry">
+Kohn, Tertius Abraham, and Kathryn Helen Myburgh. 2006. <span>“Electrophoretic Separation of Human Skeletal Muscle Myosin Heavy Chain Isoforms: The Importance of Reducing Agents.”</span> Journal Article. <em>The Journal of Physiological Sciences : JPS</em> 56 (5): 355–60. <a href="https://doi.org/10.2170/physiolsci.RP007706">https://doi.org/10.2170/physiolsci.RP007706</a>.
+</div>
+<div id="ref-RN2353" class="csl-entry">
+Kubis, H. P., and G. Gros. 1997. <span>“A Rapid Electrophoretic Method for Separating Rabbit Skeletal Muscle Myosin Heavy Chains at High Resolution.”</span> Journal Article. <em>Electrophoresis</em> 18 (1): 64–66. <a href="https://doi.org/10.1002/elps.1150180113">https://doi.org/10.1002/elps.1150180113</a>.
+</div>
+<div id="ref-RN2350" class="csl-entry">
+Scheffler, Tracy L., Megan B. Leitner, and Shelby A. Wright. 2018. <span>“Technical Note: Protocol for Electrophoretic Separation of Bovine Myosin Heavy Chain Isoforms and Comparison to Immunohistochemistry Analysis.”</span> Journal Article. <em>Journal of Animal Science</em> 96 (10): 4306–12. <a href="https://doi.org/10.1093/jas/sky283">https://doi.org/10.1093/jas/sky283</a>.
+</div>
+<div id="ref-RN2352" class="csl-entry">
+Talmadge, R. J., and R. R. Roy. 1993. <span>“Electrophoretic Separation of Rat Skeletal Muscle Myosin Heavy-Chain Isoforms.”</span> Journal Article. <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em> 75 (5): 2337–40. <a href="https://doi.org/10.1152/jappl.1993.75.5.2337">https://doi.org/10.1152/jappl.1993.75.5.2337</a>.
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
