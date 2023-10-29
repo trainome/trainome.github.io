@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!archive/"
+
+website:
+  title: "[train]{.train}[OME]{.ome}"
+  navbar:
+    background: "#E2DDD1"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Ongoing projects
+      - href: resources.qmd
+        text: Resources
+        
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - styles/styles.scss
+    toc: true
+
+
+

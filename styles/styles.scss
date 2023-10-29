@@ -1,0 +1,46 @@
+/* css styles */
+
+$theme-black: #000000;
+$theme-green6: #004002;
+$theme-green5: #056731;
+$theme-green4: #009227; 
+$theme-green3: #4FC34E;
+$theme-green2: #A5D398;
+$theme-green1: #D1E28C;
+$theme-nature: #E2DDD1;
+
+$theme-blue: #99D9DD;
+$theme-white: #F7F8F9;
+$theme-yellow: #F4BA02;
+$theme-red: #F90982;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$presentation-heading-font: 'Young Serif', serif;
+
+
+
+/*-- scss:rules --*/
+
+
+.train {
+  color: $theme-black;
+  font-style: italic;
+  font-family: 'Roboto'; 
+  font-weight: 300;
+}
+
+.ome {
+  color: $theme-green6;
+  font-family: 'Abril Fatface';
+  font-weight: bold;
+}
+
+
+
+
+
+
+

@@ -6,11 +6,8 @@ AlwaysSaveHistory: Default
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
-NumSpacesForTab: 8
+NumSpacesForTab: 2
 Encoding: UTF-8
 
-RnwWeave: Sweave
+RnwWeave: Knitr
 LaTeX: pdfLaTeX
-
-BuildType: Website
-WebsitePath: C:/Users/706194/Dropbox/Research/6. Manuals protocols Trainome/trainome.github.io
