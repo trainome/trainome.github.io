@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>trainOME - trainOME publications</title>
+<title>trainOME - Extraction of DNA from whole blood</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><span class="train">train</span><span class="ome">OME</span></span>
     </a>
   </div>
@@ -81,25 +81,32 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="../projects.html" rel="" target="">
  <span class="menu-text">Ongoing projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../protocols.html" rel="" target="">
+ <span class="dropdown-text">Protocols</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -112,14 +119,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="train">train</span><span class="ome">OME</span> publications</h1>
+<h1 class="title">Extraction of DNA from whole blood</h1>
 </div>
 
 
@@ -134,10 +152,214 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>This protocol is adopted from Bartlett, J. M. S. and D. Stirling (2003), PCR protocols, Ch 6.</p>
+</section>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<ul>
+<li>15 ml centrifuge tubes</li>
+<li>1.5 ml centrifuge tubes</li>
+<li>Waterbath (65°C)</li>
+<li>Tube rotator</li>
+</ul>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>Blood can be collected in heparin or EDTA-vacutainer tubes. Process samples on the same days as collection if stored at room temp.</p>
+<ol type="1">
+<li>Move 3mL of whole blood to a 15 mL tube.</li>
+<li>Add 12 mL of <strong>Reagent A</strong></li>
+<li>Mix slowly by rotation, 4 min at room temp.</li>
+<li>Centrifuge 3000 g for 5 min at room temp.</li>
+<li>Discard supernatant without disturbing cell pellet. Remove all moisture by inverting and blotting on paper or by pipetting.</li>
+<li>Add 1 mL of <strong>Reagent B</strong>, vortex to re-suspend the cell pellet.</li>
+<li>Add 250 μl of <strong>5 M sodium perchlorate</strong> and mix by inverting tube several times. ⚠ Sodium perchlorate is harmful if swallowed and causes irritation. Keep away from heat.</li>
+<li>Place the tube in 65°C waterbath for 15-20 min.</li>
+<li>Cool to room temp. 10 Add 2 mL of ice-cold <strong>chloroform</strong>. ⚠ Toxic, perform operation in fume hood with appropriate protective equipment.</li>
+<li>Mix on a rotating mixer for 30 to 60 minutes (more or less will reduce DNA yield).</li>
+<li>Centrifuge, 2400g for 2 min. Careful not to disturb the separated phases.</li>
+<li>Transfer upper phase into a clean falcon tube with a sterile pipette.</li>
+<li>Precipitate the DNA by adding 2-3 mL of chilled <strong>100% ethanol</strong>, invert tube. DNA should appear in the solution.</li>
+<li>Transfer the DNA to a 1.5 mL tube allow to air dry.</li>
+<li>Resuspend in 200 ul of <strong>TE buffer</strong>.</li>
+<li>Quantify DNA concentration with the spectrophotometer, 200-500 ng/ul is expected.</li>
+</ol>
+<section id="solutions" class="level3">
+<h3 class="anchored" data-anchor-id="solutions">Solutions</h3>
+<section id="m-edta-ph-8-for-1-l" class="level4">
+<h4 class="anchored" data-anchor-id="m-edta-ph-8-for-1-l">0.5 M EDTA, pH 8, for 1 l:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDTA</td>
+<td>146.1 g</td>
+</tr>
+<tr class="even">
+<td>NaOH</td>
+<td>~20g</td>
+</tr>
+</tbody>
+</table>
+<p>Add EDTA to 800 mL ddH<sub>2</sub>O, adjust pH with NaOH. Autoclave 15 psi, 15 min.</p>
+</section>
+<section id="m-tris-hcl-ph-7.6-for-1-l" class="level4">
+<h4 class="anchored" data-anchor-id="m-tris-hcl-ph-7.6-for-1-l">1 M Tris-HCl, pH 7.6, for 1 L:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>121.1 g</td>
+</tr>
+</tbody>
+</table>
+<p>Add to 800 mL ddH<sub>2</sub>O, adjust pH with HCl and make up to 1L. Autoclave 15 psi, 15 min.</p>
+</section>
+<section id="reagent-a-red-blood-cell-lysis-ph-8.-for-1l" class="level4">
+<h4 class="anchored" data-anchor-id="reagent-a-red-blood-cell-lysis-ph-8.-for-1l">Reagent A, red blood cell lysis, pH 8. For 1L:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.01 M</td>
+<td>10 ml 1 M Tris-HCl</td>
+</tr>
+<tr class="even">
+<td>Sucrose</td>
+<td>320 mM</td>
+<td>109.54 g</td>
+</tr>
+<tr class="odd">
+<td>MgCl<sub>2</sub></td>
+<td>5 mM</td>
+<td>0.47 g</td>
+</tr>
+<tr class="even">
+<td>Triton X-100</td>
+<td>1%</td>
+<td>10 mL</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8 with NaOH. Autoclave 10 psi, 10 min.</p>
+</section>
+<section id="reagent-b-cell-lysis" class="level4">
+<h4 class="anchored" data-anchor-id="reagent-b-cell-lysis">Reagent B, cell lysis</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.4 M</td>
+<td>400 mL 1 M Tris-HCl</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>150 mM</td>
+<td>8.76 g</td>
+</tr>
+<tr class="odd">
+<td>EDTA</td>
+<td>0.06 M</td>
+<td>120 mL 0.6 M EDTA</td>
+</tr>
+<tr class="even">
+<td>SDS</td>
+<td>1%</td>
+<td>10 g<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8 and make to 1 L with ddH<sub>2</sub>O. Autoclave at 15 min at 15 psi<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+</section>
+<section id="m-sodium-perchlorate-for-100-ml" class="level4">
+<h4 class="anchored" data-anchor-id="m-sodium-perchlorate-for-100-ml">5 M sodium perchlorate, for 100 mL:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>sodium perchlorate</td>
+<td>70 g</td>
+</tr>
+</tbody>
+</table>
+<p>Dissolve in 80 mL ddH<sub>2</sub>O make to 100 mL.</p>
+</section>
+<section id="te-buffer-for-1-l" class="level4">
+<h4 class="anchored" data-anchor-id="te-buffer-for-1-l">TE-buffer, for 1 L:</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-HCl</td>
+<td>0.01 M</td>
+<td>10 mL 1 M Tris-HCl ph 7.6</td>
+</tr>
+<tr class="even">
+<td>EDTA</td>
+<td>1 mM</td>
+<td>2 mL 0.5 EDTA</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 7.6, make to 1 L, autoclave 15 min at 15 psi.</p>
+</section>
+<section id="chloroform-chill-to-4c." class="level4">
+<h4 class="anchored" data-anchor-id="chloroform-chill-to-4c.">Chloroform, chill to 4°C.</h4>
+</section>
+<section id="ethanol-100-chill-to-4c." class="level4">
+<h4 class="anchored" data-anchor-id="ethanol-100-chill-to-4c.">Ethanol (100%), chill to 4°C.</h4>
 
 
+</section>
+</section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Add SDS after autoclaving.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Add SDS after autoclaving.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

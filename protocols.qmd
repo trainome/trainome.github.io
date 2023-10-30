@@ -1,0 +1,15 @@
+---
+title: "Protocols"
+---
+
+## Current protocols
+
+- [Extraction of RNA and protein from muscle samples using Trizol reagent](protocols/pr_trizol_ver_20191111.qmd)
+- [cDNA synthesis using Superscript IV](protocols/pr_cdnasynthesis_ver_2019-11-12.qmd)
+- [General purpose muscle tissue homogenization protocol](protocols/pr_tissuehomogenization_ver_2019-11-12.qmd)
+- [Solutions and buffers](protocols/pr_solutions_ver_2019-11-12.qmd)
+- [Extraction of DNA from whole blood](protocols/pr_DNAextraction_ver_2019-11-14.qmd)
+- [Extraction of DNA low volume whole blood](protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.qmd)
+- [ACTN3 genotyping](protocols/pr_actn3genotype_ver_2019-11-21.qmd)
+- [General DNA Agarose Gel Electrophoresis protocol](protocols/pr_agaroseelectrophoresis_ver_2019-11-20.qmd)
+- [Determination of relative myosin heavy chain isoform proportions by SDS-PAGE](protocols/pr_myhc-sds-page_ver_2019-12-01.qmd)

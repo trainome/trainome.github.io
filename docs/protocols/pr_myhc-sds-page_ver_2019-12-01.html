@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>trainOME - Determination of relative myosin heavy chain isoform proportions by SDS-PAGE</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title"><span class="train">train</span><span class="ome">OME</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.html" rel="" target="">
+ <span class="menu-text">Ongoing projects</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../protocols.html" rel="" target="">
+ <span class="dropdown-text">Protocols</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background-and-overview" id="toc-background-and-overview" class="nav-link active" data-scroll-target="#background-and-overview">Background and overview</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a>
+  <ul class="collapse">
+  <li><a href="#fresh-solutions-make-on-day-of-experiment" id="toc-fresh-solutions-make-on-day-of-experiment" class="nav-link" data-scroll-target="#fresh-solutions-make-on-day-of-experiment">Fresh solutions (make on day of experiment)</a></li>
+  </ul></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#assamble-of-glass-plate-sandwiches" id="toc-assamble-of-glass-plate-sandwiches" class="nav-link" data-scroll-target="#assamble-of-glass-plate-sandwiches">Assamble of glass plate sandwiches</a></li>
+  <li><a href="#gel-staining" id="toc-gel-staining" class="nav-link" data-scroll-target="#gel-staining">Gel staining</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Determination of relative myosin heavy chain isoform proportions by SDS-PAGE</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="background-and-overview" class="level2">
+<h2 class="anchored" data-anchor-id="background-and-overview">Background and overview</h2>
+<p>Muscle samples are homogenized in sample buffer at approximatly 20 ul of buffer per 1 mg of tissue. Total protein concentration is estimated by Bradford assay (make sample buffer without bromophenol blue in order to quantify). Stock solutions are prepared for casting gels. On day 1, the separation gel is prepared and left to polymerized over night at 4 °C. On day 2 the the loading gel is prepared on top of the separation gel and samples are loaded. The gels run for approximately 44 hours at 4 °C. On day 4 the gels are stained.</p>
+</section>
+<section id="solutions" class="level2">
+<h2 class="anchored" data-anchor-id="solutions">Solutions</h2>
+<table class="table">
+<caption>0.5 M Tris pH 6.8, for 100 ml, adjust pH with HCl.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>6.055 g</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Sample buffer, store in brown bottle at 4°C</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.5 M Tris stock, pH 6.8</td>
+<td>6.25 ml</td>
+</tr>
+<tr class="even">
+<td>10% SDS</td>
+<td>10 ml</td>
+</tr>
+<tr class="odd">
+<td>Glycerol</td>
+<td>10 ml</td>
+</tr>
+<tr class="even">
+<td>Mercaptoethanol</td>
+<td>2.5 ml</td>
+</tr>
+<tr class="odd">
+<td>Bromophenol Blue</td>
+<td>~25 mg</td>
+</tr>
+<tr class="even">
+<td>ddH<sub>2</sub>O</td>
+<td>To 50 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Acrylamide/Bis acrylamide stock (100:1), for 200 ml. Keep in brown bottle, 4°C, good for 1-2 months.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bis-solution (Bio-Rad 161-0142)</td>
+<td>30 ml</td>
+</tr>
+<tr class="even">
+<td>40% Acrylamide solution (Bio-Rad 161-0140)</td>
+<td>150 ml</td>
+</tr>
+<tr class="odd">
+<td>ddH<sub>2</sub>O</td>
+<td>To 200 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Acrylamide/Bis stock (37.5:1), for 100 ml, store at 4°C. (Commercial alternative Bio-Rad 30% Acr/Bis sol. 161-0158)</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bis solution (Bio-Rad 161-0142)</td>
+<td>40 ml</td>
+</tr>
+<tr class="even">
+<td>40% Acrylamide solution</td>
+<td>75 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Lower Tris Buffer, for 200 ml. Adjust pH to 8.8. Store in brown bottle at 4°C.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>36.34 g</td>
+</tr>
+<tr class="even">
+<td>10 % SDS</td>
+<td>8 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Upper Tris Buffer, for 100 ml. Adjust pH to 6.8. Store in brown bottle at 4°C.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>6.06 g</td>
+</tr>
+<tr class="even">
+<td>10 % SDS</td>
+<td>4 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>1M Glycin, for 50 ml</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glycine</td>
+<td>3.754 g</td>
+</tr>
+<tr class="even">
+<td>ddH<sub>2</sub>O</td>
+<td>To 50 ml</td>
+</tr>
+</tbody>
+</table>
+<section id="fresh-solutions-make-on-day-of-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="fresh-solutions-make-on-day-of-experiment">Fresh solutions (make on day of experiment)</h3>
+<table class="table">
+<caption>Running buffer, for 1000 ml.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris-base</td>
+<td>3.03 g</td>
+</tr>
+<tr class="even">
+<td>Glycine</td>
+<td>14.4 g</td>
+</tr>
+<tr class="odd">
+<td>10% SDS</td>
+<td>10 ml</td>
+</tr>
+<tr class="even">
+<td>ddH<sub>2</sub>O</td>
+<td>To 1000 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>APS 10%</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>APS (Ammonium persulfate)</td>
+<td>~200 mg</td>
+</tr>
+<tr class="even">
+<td>ddH<sub>2</sub>O</td>
+<td>To 2 ml</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Separation gel, for 2 large size gels. De-gas solution by vacuum for 15 min before adding APS. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Acrylamid/Bis (100:1) (from stock)</td>
+<td>13.4 ml</td>
+</tr>
+<tr class="even">
+<td>Lower Tris (from stock)</td>
+<td>6.7 ml</td>
+</tr>
+<tr class="odd">
+<td>dH2O</td>
+<td>7.5 ml</td>
+</tr>
+<tr class="even">
+<td>SDS 10%</td>
+<td>2 ml</td>
+</tr>
+<tr class="odd">
+<td>1M Glycine (from stock)</td>
+<td>5 ml</td>
+</tr>
+<tr class="even">
+<td>Glycerol</td>
+<td>15 ml</td>
+</tr>
+<tr class="odd">
+<td>APS</td>
+<td>500 ul</td>
+</tr>
+<tr class="even">
+<td>TEMED</td>
+<td>40 ul</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Stacking gel, for 2 large size gels. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.</caption>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight/Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Acrylamid/Bis (37.5:1) (from stock)</td>
+<td>1 ml</td>
+</tr>
+<tr class="even">
+<td>Upper Tris (from stock)</td>
+<td>2.5 ml</td>
+</tr>
+<tr class="odd">
+<td>dH2O</td>
+<td>6.5 ml</td>
+</tr>
+<tr class="even">
+<td>APS</td>
+<td>100 ul</td>
+</tr>
+<tr class="odd">
+<td>TEMED</td>
+<td>20 ul</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<section id="assamble-of-glass-plate-sandwiches" class="level3">
+<h3 class="anchored" data-anchor-id="assamble-of-glass-plate-sandwiches">Assamble of glass plate sandwiches</h3>
+<section id="materials" class="level4">
+<h4 class="anchored" data-anchor-id="materials">Materials</h4>
+<ul>
+<li>Two glass plates (one small and one large)</li>
+<li>Two spacers</li>
+<li>Two clamps</li>
+<li>One alignement card</li>
+</ul>
+<ol type="1">
+<li>Put the large glass plate on the table</li>
+<li>Put the alignment card on the glass plate with spacers on both sides</li>
+<li>Place the smaller glass plate on top, align glass plate bottoms.</li>
+<li>Place clamps on both sides, adjust the bottom surface of the sandwich.</li>
+<li>Place a gray gasket in the casting slot.</li>
+<li>Place the sandwich in the casting slot and tighten. The seal can be checked by pouring dH2O into the sandwich.</li>
+<li>Mark the plate sandwich for future reference.</li>
+</ol>
+</section>
+<section id="preparing-separation-gel" class="level4">
+<h4 class="anchored" data-anchor-id="preparing-separation-gel">Preparing separation gel</h4>
+<p><strong>Be careful when handeling acrylamide and bis-acrylamide solutions. Use gloves!</strong></p>
+<ol type="1">
+<li>Place a filtering flask (with hose connection) with a magnet on a stirrer.</li>
+<li>Combine components of the <em>Separation gel</em>. Let the solution stir slowly for 2 min before adding the last 7.5 ml dH2O, let solution stir for additional 5-10 min.</li>
+<li>Degas moderately for approx. 5-15 min.</li>
+<li>Add 500 ul APS-solution</li>
+<li>Let the solution stir (slowly for 2 min).</li>
+<li>Add 40 ul TEMED</li>
+<li>Let the solution stir for 45 sec (Not more), and pour the solution between the glass plates using a 5 ml pipette.</li>
+<li>Immediatly add 0.75 ml isobutanol on top of the gel.</li>
+<li>Let the gel polymerize overnight at 4°C.</li>
+</ol>
+</section>
+<section id="preparing-stacking-gel-day-2" class="level4">
+<h4 class="anchored" data-anchor-id="preparing-stacking-gel-day-2">Preparing stacking gel (day 2)</h4>
+<ol type="1">
+<li>Use a 10 or 20 ml beaker with a small magnet stirrer.</li>
+<li>Add components of the <em>Stacking gel</em> (except APS and TEMED). Let the solution stir for at least 5 min.</li>
+<li>Clean a comb with EtOH.</li>
+<li>Pour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off and remove the remaining dH2O with paper (carefully, without disturbing the gel).</li>
+<li>Put the cleaned comb between the glass plates, leave 0.5 cm between the lower edge of the comb and glass plate for adjustments.</li>
+<li>Add to beaker: 100 µl APS-solution, stir 2 min, 20 µl TEMED, stir 45 sec.</li>
+<li>Using a 5 ml pipette pour the solution slowly between the comb and spacer, avoid air boubles. Fill the sandwich to ¾, push down the comb, and top of. Air bubbles can be removed by tapping the comb prior to topping the sandwich with solution.</li>
+<li>Let the stacking gel polymerize for at least 60 min before loading.</li>
+</ol>
+</section>
+<section id="loading-the-gel" class="level4">
+<h4 class="anchored" data-anchor-id="loading-the-gel">Loading the gel</h4>
+<ol type="1">
+<li>When the gel polymerize, prepare running buffer for the planned number/size of electrophoresis.</li>
+<li>Take the sandwich out of the stand and attach it to the elctrophoresis core.</li>
+<li>Mark the bottom of every well with a line and number the wells.</li>
+<li>Pour running buffer into the lower buffer chamber.</li>
+<li>Put the electrophoresis core (with the sandwich attached) in the chamber.</li>
+<li>Pour running buffer into the top chamber.</li>
+<li>Slowly remove the comb using to forceps.</li>
+<li>Remove bubbles from under the gel.</li>
+<li>Load the gel with sample.</li>
+<li>When all wells are loaded, slowly pipette 400 µl 2-mercaptoethanol in the upper buffer (adjust to chamber size).</li>
+<li>Put the lid on the apparatus, plug it to the power supply and run gels at 70 V in room temperatur until samples has reached the separating gel (approx 1.5 h). Place the chamber at 4°C for the remaining ~42 h.</li>
+</ol>
+</section>
+</section>
+<section id="gel-staining" class="level3">
+<h3 class="anchored" data-anchor-id="gel-staining">Gel staining</h3>
+<p>Use commercial gel staining before visualization.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
