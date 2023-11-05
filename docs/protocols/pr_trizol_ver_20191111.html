@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2019-11-11">
 
-<title>trainOME - Protocols</title>
+<title>trainOME - Extraction of RNA and protein from muscle tissue</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,6 +61,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -70,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><span class="train">train</span><span class="ome">OME</span></span>
     </a>
   </div>
@@ -81,19 +84,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="../projects.html" rel="" target="">
  <span class="menu-text">Ongoing projects</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -102,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="./protocols.html" rel="" target="">
+    <a class="dropdown-item" href="../protocols.html" rel="" target="">
  <span class="dropdown-text">Protocols</span></a>
   </li>  
     </ul>
@@ -123,8 +126,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-protocols" id="toc-current-protocols" class="nav-link active" data-scroll-target="#current-protocols">Current protocols</a></li>
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#solutions-and-chemicals" id="toc-solutions-and-chemicals" class="nav-link" data-scroll-target="#solutions-and-chemicals">Solutions and chemicals</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#homogenization-and-phase-separation" id="toc-homogenization-and-phase-separation" class="nav-link" data-scroll-target="#homogenization-and-phase-separation">Homogenization and phase separation</a></li>
+  <li><a href="#rna-extraction" id="toc-rna-extraction" class="nav-link" data-scroll-target="#rna-extraction">RNA extraction</a></li>
+  <li><a href="#protein-extraction" id="toc-protein-extraction" class="nav-link" data-scroll-target="#protein-extraction">Protein extraction</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Protocols</h1>
+<h1 class="title">Extraction of RNA and protein from muscle tissue</h1>
 </div>
 
 
@@ -141,6 +151,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 11, 2019</p>
+    </div>
+  </div>
   
     
   </div>
@@ -148,30 +164,156 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="current-protocols" class="level2">
-<h2 class="anchored" data-anchor-id="current-protocols">Current protocols</h2>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>The Trizol-protocol can be used to extract RNA, DNA and protein from muscle tissue. The protein pellet is hard to dissolve, Kopec et al. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> provided guidelines for improved solubility of the protein pellet after precipitation. The total RNA content per tissue weight can be used as proxy marker for ribosome content. If this is an aim, care must be taken to assure e.g.&nbsp;no sample loss. External reference genes can be used to control for tissue weight.</p>
+</section>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<p>For extraction of RNA and protein per sample:</p>
 <ul>
-<li><a href="./protocols/pr_trizol_ver_20191111.html">Extraction of RNA and protein from muscle samples using Trizol reagent</a></li>
-<li><a href="./protocols/pr_cdnasynthesis_ver_2019-11-12.html">cDNA synthesis using Superscript IV</a></li>
-<li><a href="./protocols/pr_tissuehomogenization_ver_2019-11-12.html">General purpose muscle tissue homogenization protocol</a></li>
-<li><a href="./protocols/pr_solutions_ver_2019-11-12.html">Solutions and buffers</a></li>
-<li><a href="./protocols/pr_DNAextraction_ver_2019-11-14.html">Extraction of DNA from whole blood</a></li>
-<li><a href="./protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html">Extraction of DNA low volume whole blood</a></li>
-<li><a href="./protocols/pr_actn3genotype_ver_2019-11-21.html">ACTN3 genotyping</a></li>
-<li><a href="./protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html">General DNA Agarose Gel Electrophoresis protocol</a></li>
-<li><a href="./protocols/pr_myhc-sds-page_ver_2019-12-01.html">Determination of relative myosin heavy chain isoform proportions by SDS-PAGE</a></li>
+<li>1.5 ml Eppendorf tube with 0.5 mm RNase-free Zirconium beads (~50 ul) Keep out DNA RNAse contaminations (Eppendorf safe-lock for use in bullet blender.</li>
+<li>1.5 ml tube for RNA precipitation</li>
+<li>1.5 ml tube for RNA quantification (1:5 dilution, add 20 ul of DEPC-water)</li>
+<li>1.5 ml tubes for Protein precipitation</li>
+<li>1.5 ml tubes for Soluble protein fraction</li>
+<li>1.5 ml tubes for protein quantification (1:10 dilution, add 36 ul of ddH2O)</li>
 </ul>
 </section>
-<section id="tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<section id="solutions-and-chemicals" class="level2">
+<h2 class="anchored" data-anchor-id="solutions-and-chemicals">Solutions and chemicals</h2>
 <ul>
-<li><a href="./protocols/sw_pcr_size_determination.html">Determining DNA fragment sizes with ImageJ</a></li>
+<li><p>Trizol (Life-technologies)</p></li>
+<li><p>Chloroform</p></li>
+<li><p>Isopropanol</p></li>
+<li><p>External reference gene (e.g.&nbsp;Takara lambda)</p></li>
+<li><p>100% EtOH</p></li>
+<li><p>95% EtOH</p></li>
+<li><p>75% EtOH (kept on -20)</p></li>
+<li><p>Kopec buffer:</p></li>
 </ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>MW</th>
+<th>Final concentration</th>
+<th>For 200 ml</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDTA</td>
+<td>372.24</td>
+<td>20 mM</td>
+<td>1.49 g</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>58.44</td>
+<td>140 mM</td>
+<td>1.64 g</td>
+</tr>
+<tr class="odd">
+<td>SDS</td>
+<td></td>
+<td>5%</td>
+<td>10 g</td>
+</tr>
+<tr class="even">
+<td>Tris</td>
+<td>121.14</td>
+<td>10 mM</td>
+<td>2.42 g</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust pH to 8.0, add phosphatase and protease inhibitors prior to use.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<section id="homogenization-and-phase-separation" class="level3">
+<h3 class="anchored" data-anchor-id="homogenization-and-phase-separation">Homogenization and phase separation</h3>
+<ol type="1">
+<li>Add 1 sample volume of beads and 300 ul Trizol to eppendorf 1.5 ml tubes. Keep on ice. OPTIONAL: If external reference gene is used, add 1 unit to every extraction with Trizol in first step. Lambda (0.04 ng/ul, 2 ul per extraction)</li>
+<li>Add frozen muscle samples (protocol optimized for 5-25 ug of wet weight muscle sample) without thawing and put tubes in Bullet blender</li>
+<li>Run Bullet Blender (BB) for 1 min at speed 10, put samples on ice for 1 min. Run samples for 1 min at speed 12. Check samples, if not dissolved run until fully homogenized.</li>
+<li>Add Trizol (700 ul) to total volume 1000 ul, run samples in BB for 1 min speed 3.</li>
+<li>Incubate @ RT for 5 min</li>
+<li>Add 200 ul chloroform, shake 15 sec, incubate for 2-3 min.</li>
+<li>Spin 12000g, 15min, 4°C</li>
+<li>Pipette 450 ul of the aqueous phase to a new tube. Be careful not to disrupt the interphase or organic phase. Add 500 ul of isopropanol to precipitate RNA, incubate over night at -20°C or 10 min at room temp and continue with RNA extraction.</li>
+<li>Completely remove the remaining aqueous phase, either store remaining phases at -20°C until protein extraction or continue right away</li>
+</ol>
+</section>
+<section id="rna-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="rna-extraction">RNA extraction</h3>
+<p>Precipitation and wash</p>
+<ol type="1">
+<li>Spin the isopropanol/water phase 12000g, 10min, 4°C. A pellet should form, decant supernatant, spin briefly and remove remaining liquids.</li>
+<li>Add 1000 ul 75% EtOH (-20°C) @ RT, vortex gently. Spin 7500g, 5min, 4°C.</li>
+<li>Repeat step 2 two more times.</li>
+<li>Remove all EtOH, air dry the pellet up to 10 min with tubes upside-down. Do not over-dry!</li>
+</ol>
+<section id="suspension" class="level4">
+<h4 class="anchored" data-anchor-id="suspension">Suspension</h4>
+<ol type="1">
+<li>Add 20-40 ul of 1x DEPC-treated water (55°C), incubate at 55°C for 10min.</li>
+<li>Aliquot:
+<ul>
+<li>5 ul to 20 ul TE buffer for Nanodrop/Qubit<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>x ul in stock solution</li>
+</ul></li>
+</ol>
+<ol start="3" type="1">
+<li>Store RNA stock solution @ -80°C.</li>
+</ol>
+</section>
+</section>
+<section id="protein-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="protein-extraction">Protein extraction</h3>
+<section id="dna-precipitation-protein-precipitation" class="level4">
+<h4 class="anchored" data-anchor-id="dna-precipitation-protein-precipitation">DNA precipitation, protein precipitation</h4>
+<ol type="1">
+<li>Add 300 ul of 100% EtOH, invert tubes to mix. Incubate for 3 min @ RT.</li>
+<li>Spinn 2000g, 5min, 4°C.</li>
+<li>Transfer the phenol-ethanol supernatant to a new tube<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
+<li>Transfer-volume <span class="math inline">\(\frac{1.75}{MW/950}\)</span> , where MW is muscle weight<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</li>
+</ol>
+<ol start="5" type="1">
+<li>Add at least 2x isopropanol, shake and incubate samples @ RT, 10 min.</li>
+<li>Spinn 12 000g, 10 min, 4°C</li>
+<li>Wash pellet in 500 ul 95% EtOH. Work quickly do not dry out the pellet, no incubations. Dislodge the pellet from the tube in every wash.</li>
+<li>Spinn, 7500 g, 5 min, 4°C. Remove wash.</li>
+<li>Repeat step 7-8, one to two more times.</li>
+<li>Air dry pellet 5-10 min, do not dry out the pellet but remove ALL EtOH! (Centrifuge briefly to remove all EtOH).</li>
+</ol>
+</section>
+<section id="protein-re-suspension" class="level4">
+<h4 class="anchored" data-anchor-id="protein-re-suspension">Protein re-suspension</h4>
+<ol type="1">
+<li>Add 45 ul of Kopec-buffer</li>
+<li>Incubate 2-4 hours at 50°C</li>
+<li>Pipette solution to mix. Centrifuge at room temp to sediment any insoluble material. (10000 g, 5 min)</li>
+<li>Transfer supernatant to 3 aliquots (~60 ul) + 4 ul to 36 ul H2O for 1:10 dilution</li>
+<li>Measure 5 ul of 1:10 dilution in qubit for protein concentration. Store at -80°C</li>
+</ol>
 
 
 </section>
+</section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Kopec, A.M., et al., Optimized solubilization of TRIzol-precipitated protein permits Western blotting analysis to maximize data available from brain tissue. Journal of neuroscience methods, 2017. 280: p.&nbsp;64-76.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>TE buffer can be used to get more reliable quality readings as pH of the buffer affects the 260 reading in the spectrometer<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Multiple aliquots are recommended, e.g.&nbsp;continue with two and keep two as backup on -20°C.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Transfers a volume corresponding to 1.75 mg of tissue<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

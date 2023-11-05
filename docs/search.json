@@ -1,0 +1,408 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "trainOME",
+    "section": "",
+    "text": "The trainOME research group aims to characterize the responder spectrum to exercise training and identify strategies to increase its effectiveness."
+  },
+  {
+    "objectID": "protocols.html",
+    "href": "protocols.html",
+    "title": "Protocols",
+    "section": "",
+    "text": "Extraction of RNA and protein from muscle samples using Trizol reagent\ncDNA synthesis using Superscript IV\nGeneral purpose muscle tissue homogenization protocol\nSolutions and buffers\nExtraction of DNA from whole blood\nExtraction of DNA low volume whole blood\nACTN3 genotyping\nGeneral DNA Agarose Gel Electrophoresis protocol\nDetermination of relative myosin heavy chain isoform proportions by SDS-PAGE"
+  },
+  {
+    "objectID": "protocols.html#current-protocols",
+    "href": "protocols.html#current-protocols",
+    "title": "Protocols",
+    "section": "",
+    "text": "Extraction of RNA and protein from muscle samples using Trizol reagent\ncDNA synthesis using Superscript IV\nGeneral purpose muscle tissue homogenization protocol\nSolutions and buffers\nExtraction of DNA from whole blood\nExtraction of DNA low volume whole blood\nACTN3 genotyping\nGeneral DNA Agarose Gel Electrophoresis protocol\nDetermination of relative myosin heavy chain isoform proportions by SDS-PAGE"
+  },
+  {
+    "objectID": "protocols.html#tutorials",
+    "href": "protocols.html#tutorials",
+    "title": "Protocols",
+    "section": "Tutorials",
+    "text": "Tutorials\n\nDetermining DNA fragment sizes with ImageJ"
+  },
+  {
+    "objectID": "protocols/pr_DNAextraction_ver_2019-11-14.html",
+    "href": "protocols/pr_DNAextraction_ver_2019-11-14.html",
+    "title": "Extraction of DNA from whole blood",
+    "section": "",
+    "text": "This protocol is adopted from Bartlett, J. M. S. and D. Stirling (2003), PCR protocols, Ch 6."
+  },
+  {
+    "objectID": "protocols/pr_DNAextraction_ver_2019-11-14.html#background",
+    "href": "protocols/pr_DNAextraction_ver_2019-11-14.html#background",
+    "title": "Extraction of DNA from whole blood",
+    "section": "",
+    "text": "This protocol is adopted from Bartlett, J. M. S. and D. Stirling (2003), PCR protocols, Ch 6."
+  },
+  {
+    "objectID": "protocols/pr_DNAextraction_ver_2019-11-14.html#materials",
+    "href": "protocols/pr_DNAextraction_ver_2019-11-14.html#materials",
+    "title": "Extraction of DNA from whole blood",
+    "section": "Materials",
+    "text": "Materials\n\n15 ml centrifuge tubes\n1.5 ml centrifuge tubes\nWaterbath (65°C)\nTube rotator"
+  },
+  {
+    "objectID": "protocols/pr_DNAextraction_ver_2019-11-14.html#methods",
+    "href": "protocols/pr_DNAextraction_ver_2019-11-14.html#methods",
+    "title": "Extraction of DNA from whole blood",
+    "section": "Methods",
+    "text": "Methods\nBlood can be collected in heparin or EDTA-vacutainer tubes. Process samples on the same days as collection if stored at room temp.\n\nMove 3mL of whole blood to a 15 mL tube.\nAdd 12 mL of Reagent A\nMix slowly by rotation, 4 min at room temp.\nCentrifuge 3000 g for 5 min at room temp.\nDiscard supernatant without disturbing cell pellet. Remove all moisture by inverting and blotting on paper or by pipetting.\nAdd 1 mL of Reagent B, vortex to re-suspend the cell pellet.\nAdd 250 μl of 5 M sodium perchlorate and mix by inverting tube several times. ⚠ Sodium perchlorate is harmful if swallowed and causes irritation. Keep away from heat.\nPlace the tube in 65°C waterbath for 15-20 min.\nCool to room temp. 10 Add 2 mL of ice-cold chloroform. ⚠ Toxic, perform operation in fume hood with appropriate protective equipment.\nMix on a rotating mixer for 30 to 60 minutes (more or less will reduce DNA yield).\nCentrifuge, 2400g for 2 min. Careful not to disturb the separated phases.\nTransfer upper phase into a clean falcon tube with a sterile pipette.\nPrecipitate the DNA by adding 2-3 mL of chilled 100% ethanol, invert tube. DNA should appear in the solution.\nTransfer the DNA to a 1.5 mL tube allow to air dry.\nResuspend in 200 ul of TE buffer.\nQuantify DNA concentration with the spectrophotometer, 200-500 ng/ul is expected.\n\n\nSolutions\n\n0.5 M EDTA, pH 8, for 1 l:\n\n\n\nComponent\nWeight\n\n\n\n\nEDTA\n146.1 g\n\n\nNaOH\n~20g\n\n\n\nAdd EDTA to 800 mL ddH2O, adjust pH with NaOH. Autoclave 15 psi, 15 min.\n\n\n1 M Tris-HCl, pH 7.6, for 1 L:\n\n\n\nComponent\nWeight\n\n\n\n\nTris-base\n121.1 g\n\n\n\nAdd to 800 mL ddH2O, adjust pH with HCl and make up to 1L. Autoclave 15 psi, 15 min.\n\n\nReagent A, red blood cell lysis, pH 8. For 1L:\n\n\n\nComponent\nConcentration\nWeight/Volume\n\n\n\n\nTris-HCl\n0.01 M\n10 ml 1 M Tris-HCl\n\n\nSucrose\n320 mM\n109.54 g\n\n\nMgCl2\n5 mM\n0.47 g\n\n\nTriton X-100\n1%\n10 mL\n\n\n\nAdjust pH to 8 with NaOH. Autoclave 10 psi, 10 min.\n\n\nReagent B, cell lysis\n\n\n\nComponent\nConcentration\nWeight/Volume\n\n\n\n\nTris-HCl\n0.4 M\n400 mL 1 M Tris-HCl\n\n\nNaCl\n150 mM\n8.76 g\n\n\nEDTA\n0.06 M\n120 mL 0.6 M EDTA\n\n\nSDS\n1%\n10 g1\n\n\n\nAdjust pH to 8 and make to 1 L with ddH2O. Autoclave at 15 min at 15 psi2.\n\n\n5 M sodium perchlorate, for 100 mL:\n\n\n\nComponent\nWeight/Volume\n\n\n\n\nsodium perchlorate\n70 g\n\n\n\nDissolve in 80 mL ddH2O make to 100 mL.\n\n\nTE-buffer, for 1 L:\n\n\n\nComponent\nConcentration\nWeight/Volume\n\n\n\n\nTris-HCl\n0.01 M\n10 mL 1 M Tris-HCl ph 7.6\n\n\nEDTA\n1 mM\n2 mL 0.5 EDTA\n\n\n\nAdjust pH to 7.6, make to 1 L, autoclave 15 min at 15 psi.\n\n\nChloroform, chill to 4°C.\n\n\nEthanol (100%), chill to 4°C."
+  },
+  {
+    "objectID": "protocols/pr_DNAextraction_ver_2019-11-14.html#footnotes",
+    "href": "protocols/pr_DNAextraction_ver_2019-11-14.html#footnotes",
+    "title": "Extraction of DNA from whole blood",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAdd SDS after autoclaving.↩︎\nAdd SDS after autoclaving.↩︎"
+  },
+  {
+    "objectID": "protocols/pr_actn3genotype_ver_2019-11-21.html",
+    "href": "protocols/pr_actn3genotype_ver_2019-11-21.html",
+    "title": "Determination of ACTN3 genotype",
+    "section": "",
+    "text": "This protocols is adopted from Schadock et al. (2015)1 and is suitable for determining the ACTN3 genotype."
+  },
+  {
+    "objectID": "protocols/pr_actn3genotype_ver_2019-11-21.html#background",
+    "href": "protocols/pr_actn3genotype_ver_2019-11-21.html#background",
+    "title": "Determination of ACTN3 genotype",
+    "section": "",
+    "text": "This protocols is adopted from Schadock et al. (2015)1 and is suitable for determining the ACTN3 genotype."
+  },
+  {
+    "objectID": "protocols/pr_actn3genotype_ver_2019-11-21.html#materials",
+    "href": "protocols/pr_actn3genotype_ver_2019-11-21.html#materials",
+    "title": "Determination of ACTN3 genotype",
+    "section": "Materials",
+    "text": "Materials\n\nA PCR machine\nSpecific primers\n\nPrimers used un Schadock et al. \n\n\n\n\n\n\n\n\n\nPrimer\nsequence\nFinal reaction concentrations\nVolume of 100 uM in 500 ul primer mix\n\n\n\n\nhsACTN3_F1\nCGCCCTTCAACAACTGGCTGGA\n0.5 uM\n10 ul\n\n\nhsACTN3_R1\nGATGAGCCCGAGACAGGCAAGG\n0.5 uM\n10 ul\n\n\nhsACTN3Tif_F2\nCAACACTGCCCGAGGCTGACTG\n0.125 uM\n2.5 ul\n\n\nhsACTN3Cir_R2\nCATGATGGCACCTCGCTCTCGG\n0.25 uM\n5 ul\n\n\n\nAdd primers to 472.5 ul nuclease free H2O to make a 4X primer mix.\n\nPCR master mix\nPCR reactions tubes"
+  },
+  {
+    "objectID": "protocols/pr_actn3genotype_ver_2019-11-21.html#methods",
+    "href": "protocols/pr_actn3genotype_ver_2019-11-21.html#methods",
+    "title": "Determination of ACTN3 genotype",
+    "section": "Methods",
+    "text": "Methods\n\nExtract DNA (from whole blood or muscle)\nMix sample, master mix and primer mix per reaction in a PCR reaction tube:\n\n\n\n\nComponent\nVolume\n\n\n\n\n2X Master mix\n10 ul\n\n\nPrimer mix\n5 ul\n\n\nSample (correspondning to 100-250 ng genomic DNA)\n5 ul\n\n\n\n\nRun the PCR reaction\n\n\n\n\nTime\nTemperature\nCycles\n\n\n\n\n2 min\n95°C\n\n\n\n10 sec\n95°C\n\n\n\n10 sec\n68°C\n35 cycles\n\n\n45 sec\n72°C\n\n\n\n2 min\n72°C\n\n\n\n\n\nRun the PCR product on a 2% agarose gel using 2-5 ul of the reaction mix. Use a DNA ladder and H2O as negative control.\n\n\nAnalysis\nA R/R genotype produces two bands at 690 and 413 bp. A X/X genotype produces two bands at 690 and 318 bp."
+  },
+  {
+    "objectID": "protocols/pr_actn3genotype_ver_2019-11-21.html#footnotes",
+    "href": "protocols/pr_actn3genotype_ver_2019-11-21.html#footnotes",
+    "title": "Determination of ACTN3 genotype",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSchadock, I., et al. (2015). “Simple Method to Genotype the ACTN3 r577x Polymorphism.” Genet Test Mol Biomarkers 19(5): 253-257.↩︎"
+  },
+  {
+    "objectID": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html",
+    "href": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html",
+    "title": "General DNA Agarose Gel Electrophoresis protocol",
+    "section": "",
+    "text": "This protocol is suitable for electrophoresis separation of DNA fragments from PCR reactions."
+  },
+  {
+    "objectID": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#background",
+    "href": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#background",
+    "title": "General DNA Agarose Gel Electrophoresis protocol",
+    "section": "",
+    "text": "This protocol is suitable for electrophoresis separation of DNA fragments from PCR reactions."
+  },
+  {
+    "objectID": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#solutions",
+    "href": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#solutions",
+    "title": "General DNA Agarose Gel Electrophoresis protocol",
+    "section": "Solutions",
+    "text": "Solutions\n\n10X TBE, for 1 l:\n\n\n\n\nComponent\nWeight\nConcentration\n\n\n\n\nTris base\n121.1 g\n1M\n\n\nBoric acid\n61.8 g\n1 M\n\n\nEDTA (disodium salt)\n7.4 g\n0.02 M\n\n\n\n\n6X DNA loading dye, for 10 ml:\n\n\n\n\nComponent\nAmount\nConcentration\n\n\n\n\nGlycerol\n3 ml\n30 %\n\n\nBromophenol blue\n25 mg\n0.25%\n\n\n\nMake to 10 ml final volume."
+  },
+  {
+    "objectID": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#materials",
+    "href": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#materials",
+    "title": "General DNA Agarose Gel Electrophoresis protocol",
+    "section": "Materials",
+    "text": "Materials\n\nHorizontal electrophoresis unit with power supply\nConical flask for gel preparations\nHeat (microwave or hotplate)\nGel combs"
+  },
+  {
+    "objectID": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#methods",
+    "href": "protocols/pr_agaroseelectrophoresis_ver_2019-11-20.html#methods",
+    "title": "General DNA Agarose Gel Electrophoresis protocol",
+    "section": "Methods",
+    "text": "Methods\n\nGel preparation\n\nDilute 10X TBE buffer to make a 1X solution (100 ml in 900 ml H2O).\nAdd 100 ml of 1X TBE to a conical beaker. Add agarose to create a suitable percentage gel (2 g for 2% gel).\nIf using Sybr Safe gel stain, add the stain 1:10000 to the mixture (10 ul in 100 ml)\nHeat the mixture until the solution gets clear (e.g. 1 min in microwave or on a hotplate).\nLet the mixture cool to about 60 degrees (it should feel warm but not hot).\nPour the mixture into a gel casting tray and place the comb at its designated place.\nThe gel will polymerize in 1 h, remove the comb after polymerization.\n\n\n\nRunning the gel\n\nPlace the gel in the electrophoresis unit.\nPour 1X TBE into the electrophoresis tank to cover the well.\nMix samples with loading dye (1 ul of 6X dye per every 5 ul of sample).\nAdd DNA ladder and samples to the wells\nSet voltage to 150 V, run four about 1 h (until dye is about 80% through), check that samples moves towards the positive elctrode!\n\n\n\nVisualisation\n\nVisuialize the gel i G:Box using the UV light emitter and Sybr green settings."
+  },
+  {
+    "objectID": "protocols/pr_cdnasynthesis_ver_2019-11-12.html",
+    "href": "protocols/pr_cdnasynthesis_ver_2019-11-12.html",
+    "title": "cDNA synthesis using Superscript IV and general qPCR",
+    "section": "",
+    "text": "RNA abundance-analysis is enabled through the synthesis of complementary DNA from single stranded RNA prior to real-time quantitative polymerase chain reaction (qPCR). Successful cDNA synthesis is made using high quality input RNA. This protocol is slightly modified from the Superscript manual.\n\n\n\n\nHeating block or thermal-cycler capable of 65, 50-55 and 80°C\nRNase-free tubes, pipette tips\nSuperscript IV kit (SSIV Buffer, SSIV Reverese transcriptase, 100 nM DTT)\nOligo dT and/or Random Hexamer primers\n10 mM dNTP mix\nTotal-RNA or mRNA\n\n\n\n\n\nCombine the following components per reaction (consider creating a master mix from component a and b if you are running many samples, master mix 1):\n\n\n\n\n\n\n\n\nComponent\nVolume per reaction\n\n\n\n\n50 μM Oligo dT or 50 μM Random hexamers or 25 μM Oligo dT and 25 μM Random Hexamers\n0.5 μl Oligo dT (art nr. AB-1247) + 0.5 μl Random Hexamers (SO142)\n\n\n10 mM dNTP mix (10 mM each)\n1 μl\n\n\nTemplate RNA (0.1-5000 ng total-RNA)\nUp to 11 μl\n\n\nNuclease-free water\nAdd to total volume 13 μl\n\n\n\n\nMix all components, vortex and briefly spin down.\nHeat the mix 5 min at 65°C followed by at least 1 min incubation on ice.\nBring the 5x SSIV buffer to room-temp. Vortex and spin briefly.\nCombine the following into master-mix 2:\n\n\n\n\nComponent\nVolume per reaction\n\n\n\n\n5x SSIV Buffer\n4 μl\n\n\n100 mM DTT\n1 μl\n\n\nRNase OUT\n1 μl\n\n\nSuper Script reverse transcriptase\n1 μl\n\n\n\n\nVortex and briefly spin the components of master mix 2, add master-mix 2 to the reaction tube.\nIncubate the reaction tube at 23°C 10 min.\nIncubate the reaction mix at 50-55 °C 10 min followed by 10 min at 80°C\nDilute the cDNA to desired concentration (e.g. 1:25)"
+  },
+  {
+    "objectID": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#cdna-synthesis",
+    "href": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#cdna-synthesis",
+    "title": "cDNA synthesis using Superscript IV and general qPCR",
+    "section": "",
+    "text": "RNA abundance-analysis is enabled through the synthesis of complementary DNA from single stranded RNA prior to real-time quantitative polymerase chain reaction (qPCR). Successful cDNA synthesis is made using high quality input RNA. This protocol is slightly modified from the Superscript manual.\n\n\n\n\nHeating block or thermal-cycler capable of 65, 50-55 and 80°C\nRNase-free tubes, pipette tips\nSuperscript IV kit (SSIV Buffer, SSIV Reverese transcriptase, 100 nM DTT)\nOligo dT and/or Random Hexamer primers\n10 mM dNTP mix\nTotal-RNA or mRNA\n\n\n\n\n\nCombine the following components per reaction (consider creating a master mix from component a and b if you are running many samples, master mix 1):\n\n\n\n\n\n\n\n\nComponent\nVolume per reaction\n\n\n\n\n50 μM Oligo dT or 50 μM Random hexamers or 25 μM Oligo dT and 25 μM Random Hexamers\n0.5 μl Oligo dT (art nr. AB-1247) + 0.5 μl Random Hexamers (SO142)\n\n\n10 mM dNTP mix (10 mM each)\n1 μl\n\n\nTemplate RNA (0.1-5000 ng total-RNA)\nUp to 11 μl\n\n\nNuclease-free water\nAdd to total volume 13 μl\n\n\n\n\nMix all components, vortex and briefly spin down.\nHeat the mix 5 min at 65°C followed by at least 1 min incubation on ice.\nBring the 5x SSIV buffer to room-temp. Vortex and spin briefly.\nCombine the following into master-mix 2:\n\n\n\n\nComponent\nVolume per reaction\n\n\n\n\n5x SSIV Buffer\n4 μl\n\n\n100 mM DTT\n1 μl\n\n\nRNase OUT\n1 μl\n\n\nSuper Script reverse transcriptase\n1 μl\n\n\n\n\nVortex and briefly spin the components of master mix 2, add master-mix 2 to the reaction tube.\nIncubate the reaction tube at 23°C 10 min.\nIncubate the reaction mix at 50-55 °C 10 min followed by 10 min at 80°C\nDilute the cDNA to desired concentration (e.g. 1:25)"
+  },
+  {
+    "objectID": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#qpcr",
+    "href": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#qpcr",
+    "title": "cDNA synthesis using Superscript IV and general qPCR",
+    "section": "qPCR",
+    "text": "qPCR\n\nBackground\nTargeted amplification of cDNA using specific primers is a sensitive technique for the evaluation of gene-abundance.\n\n\nMaterials\n\nA real-time PCR machine (We use QuantStudio 5)\nA qPCR reaction plate\nNuclease-free water and pipette tips\nSYBR-green Master mix\n\n\n\nMethods\n\nCombine a master-mix:\n\n\n\n\nComponent\nVolume per reaction\n\n\n\n\nSybr-green 2X master-mix\n5 μl1\n\n\nPrimermix, Forward and Reverese 5 μM2 each\n1 μl\n\n\nH2O\n2 μl\n\n\n\n\nLoad the plate with primer-specific master-mix\nAdd 2 μl cDNA sample."
+  },
+  {
+    "objectID": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#footnotes",
+    "href": "protocols/pr_cdnasynthesis_ver_2019-11-12.html#footnotes",
+    "title": "cDNA synthesis using Superscript IV and general qPCR",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe final volume of the reaction may be optimized, 10 ul is a good starting point↩︎\nPrimer concentrations might need further optimization↩︎"
+  },
+  {
+    "objectID": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html",
+    "href": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html",
+    "title": "DNA extraction from low volume blood samples",
+    "section": "",
+    "text": "Blood (20 μl) can be collected from capillary sampling.\nPut the sample in an equal amount of Trizol in a 1.5 ml centrifuge tube."
+  },
+  {
+    "objectID": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#blood-collection",
+    "href": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#blood-collection",
+    "title": "DNA extraction from low volume blood samples",
+    "section": "",
+    "text": "Blood (20 μl) can be collected from capillary sampling.\nPut the sample in an equal amount of Trizol in a 1.5 ml centrifuge tube."
+  },
+  {
+    "objectID": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#dna-extraction",
+    "href": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#dna-extraction",
+    "title": "DNA extraction from low volume blood samples",
+    "section": "DNA extraction",
+    "text": "DNA extraction\n\nCentrifuge the Trizol/whole-blood mixture (5 min, 12000 g, 4°C)\nAdd 10 μl of chloroform, vortex 2-3 min and centrifuge (15 min, 12000 g, 4°C).\nIf RNA is to be extracted, transfer the upper aquatic phase to a fresh tube, otherwise discared the upper phase.\nTransfer the remaining supernatant to a fresh tube and add 10 μl of 100% cold methanol, incubate on ice for 5 min.\nCentrifuge (5 min, 2000 g, 4°C), discard the liquid phase and resuspend the pellet in 75% ice cold ethanol. Incubate 30 min, dry and add 5 μl of DPCE treated water."
+  },
+  {
+    "objectID": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#rna-extraction",
+    "href": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#rna-extraction",
+    "title": "DNA extraction from low volume blood samples",
+    "section": "RNA extraction",
+    "text": "RNA extraction\n\nMix the aquaous phase separated from step 3 with 10 μl of ice-cold isopropanol. Centrifuge (10 min, 12000 g, 4°C).\nDiscard the supernatant, add 75% ice-cold methanol, centrifuge (5 min, 7500 g, 4°C).\nDry the pellet and add 5 μl of DPCE treated water."
+  },
+  {
+    "objectID": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#dna-and-rna-quality-and-quantity",
+    "href": "protocols/pr_dna-extraction-from-low-amount-blood-2021-02-02.html#dna-and-rna-quality-and-quantity",
+    "title": "DNA extraction from low volume blood samples",
+    "section": "DNA and RNA quality and quantity",
+    "text": "DNA and RNA quality and quantity\nDetermine quantity and quality using a spectrophotometer with DEPC water as blank."
+  },
+  {
+    "objectID": "protocols/pr_myhc-sds-page_ver_2019-12-01.html",
+    "href": "protocols/pr_myhc-sds-page_ver_2019-12-01.html",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "",
+    "text": "Muscle samples are homogenized in sample buffer at approximatly 20 ul of buffer per 1 mg of tissue. Total protein concentration is estimated by Bradford assay (make sample buffer without bromophenol blue in order to quantify). Stock solutions are prepared for casting gels. On day 1, the separation gel is prepared and left to polymerized over night at 4 °C. On day 2 the the loading gel is prepared on top of the separation gel and samples are loaded. The gels run for approximately 44 hours at 4 °C. On day 4 the gels are stained."
+  },
+  {
+    "objectID": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#background-and-overview",
+    "href": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#background-and-overview",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "",
+    "text": "Muscle samples are homogenized in sample buffer at approximatly 20 ul of buffer per 1 mg of tissue. Total protein concentration is estimated by Bradford assay (make sample buffer without bromophenol blue in order to quantify). Stock solutions are prepared for casting gels. On day 1, the separation gel is prepared and left to polymerized over night at 4 °C. On day 2 the the loading gel is prepared on top of the separation gel and samples are loaded. The gels run for approximately 44 hours at 4 °C. On day 4 the gels are stained."
+  },
+  {
+    "objectID": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#solutions",
+    "href": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#solutions",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Solutions",
+    "text": "Solutions\n\n0.5 M Tris pH 6.8, for 100 ml, adjust pH with HCl.\n\n\nComponent\nWeight\n\n\n\n\nTris-base\n6.055 g\n\n\n\n\nSample buffer, store in brown bottle at 4°C\n\n\nComponent\nWeight/Volume\n\n\n\n\n0.5 M Tris stock, pH 6.8\n6.25 ml\n\n\n10% SDS\n10 ml\n\n\nGlycerol\n10 ml\n\n\nMercaptoethanol\n2.5 ml\n\n\nBromophenol Blue\n~25 mg\n\n\nddH2O\nTo 50 ml\n\n\n\n\nAcrylamide/Bis acrylamide stock (100:1), for 200 ml. Keep in brown bottle, 4°C, good for 1-2 months.\n\n\nComponent\nWeight/Volume\n\n\n\n\nBis-solution (Bio-Rad 161-0142)\n30 ml\n\n\n40% Acrylamide solution (Bio-Rad 161-0140)\n150 ml\n\n\nddH2O\nTo 200 ml\n\n\n\n\nAcrylamide/Bis stock (37.5:1), for 100 ml, store at 4°C. (Commercial alternative Bio-Rad 30% Acr/Bis sol. 161-0158)\n\n\nComponent\nWeight/Volume\n\n\n\n\nBis solution (Bio-Rad 161-0142)\n40 ml\n\n\n40% Acrylamide solution\n75 ml\n\n\n\n\nLower Tris Buffer, for 200 ml. Adjust pH to 8.8. Store in brown bottle at 4°C.\n\n\nComponent\nWeight/Volume\n\n\n\n\nTris-base\n36.34 g\n\n\n10 % SDS\n8 ml\n\n\n\n\nUpper Tris Buffer, for 100 ml. Adjust pH to 6.8. Store in brown bottle at 4°C.\n\n\nComponent\nWeight/Volume\n\n\n\n\nTris-base\n6.06 g\n\n\n10 % SDS\n4 ml\n\n\n\n\n1M Glycin, for 50 ml\n\n\nComponent\nWeight/Volume\n\n\n\n\nGlycine\n3.754 g\n\n\nddH2O\nTo 50 ml\n\n\n\n\nFresh solutions (make on day of experiment)\n\nRunning buffer, for 1000 ml.\n\n\nComponent\nWeight/Volume\n\n\n\n\nTris-base\n3.03 g\n\n\nGlycine\n14.4 g\n\n\n10% SDS\n10 ml\n\n\nddH2O\nTo 1000 ml\n\n\n\n\nAPS 10%\n\n\nComponent\nWeight/Volume\n\n\n\n\nAPS (Ammonium persulfate)\n~200 mg\n\n\nddH2O\nTo 2 ml\n\n\n\n\nSeparation gel, for 2 large size gels. De-gas solution by vacuum for 15 min before adding APS. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.\n\n\nComponent\nWeight/Volume\n\n\n\n\nAcrylamid/Bis (100:1) (from stock)\n13.4 ml\n\n\nLower Tris (from stock)\n6.7 ml\n\n\ndH2O\n7.5 ml\n\n\nSDS 10%\n2 ml\n\n\n1M Glycine (from stock)\n5 ml\n\n\nGlycerol\n15 ml\n\n\nAPS\n500 ul\n\n\nTEMED\n40 ul\n\n\n\n\nStacking gel, for 2 large size gels. Stir solution for 2 min before adding TEMED, let soultion stir 45 sec befor pouring the gel.\n\n\nComponent\nWeight/Volume\n\n\n\n\nAcrylamid/Bis (37.5:1) (from stock)\n1 ml\n\n\nUpper Tris (from stock)\n2.5 ml\n\n\ndH2O\n6.5 ml\n\n\nAPS\n100 ul\n\n\nTEMED\n20 ul"
+  },
+  {
+    "objectID": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#methods",
+    "href": "protocols/pr_myhc-sds-page_ver_2019-12-01.html#methods",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Methods",
+    "text": "Methods\n\nAssamble of glass plate sandwiches\n\nMaterials\n\nTwo glass plates (one small and one large)\nTwo spacers\nTwo clamps\nOne alignement card\n\n\nPut the large glass plate on the table\nPut the alignment card on the glass plate with spacers on both sides\nPlace the smaller glass plate on top, align glass plate bottoms.\nPlace clamps on both sides, adjust the bottom surface of the sandwich.\nPlace a gray gasket in the casting slot.\nPlace the sandwich in the casting slot and tighten. The seal can be checked by pouring dH2O into the sandwich.\nMark the plate sandwich for future reference.\n\n\n\nPreparing separation gel\nBe careful when handeling acrylamide and bis-acrylamide solutions. Use gloves!\n\nPlace a filtering flask (with hose connection) with a magnet on a stirrer.\nCombine components of the Separation gel. Let the solution stir slowly for 2 min before adding the last 7.5 ml dH2O, let solution stir for additional 5-10 min.\nDegas moderately for approx. 5-15 min.\nAdd 500 ul APS-solution\nLet the solution stir (slowly for 2 min).\nAdd 40 ul TEMED\nLet the solution stir for 45 sec (Not more), and pour the solution between the glass plates using a 5 ml pipette.\nImmediatly add 0.75 ml isobutanol on top of the gel.\nLet the gel polymerize overnight at 4°C.\n\n\n\nPreparing stacking gel (day 2)\n\nUse a 10 or 20 ml beaker with a small magnet stirrer.\nAdd components of the Stacking gel (except APS and TEMED). Let the solution stir for at least 5 min.\nClean a comb with EtOH.\nPour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off and remove the remaining dH2O with paper (carefully, without disturbing the gel).\nPut the cleaned comb between the glass plates, leave 0.5 cm between the lower edge of the comb and glass plate for adjustments.\nAdd to beaker: 100 µl APS-solution, stir 2 min, 20 µl TEMED, stir 45 sec.\nUsing a 5 ml pipette pour the solution slowly between the comb and spacer, avoid air boubles. Fill the sandwich to ¾, push down the comb, and top of. Air bubbles can be removed by tapping the comb prior to topping the sandwich with solution.\nLet the stacking gel polymerize for at least 60 min before loading.\n\n\n\nLoading the gel\n\nWhen the gel polymerize, prepare running buffer for the planned number/size of electrophoresis.\nTake the sandwich out of the stand and attach it to the elctrophoresis core.\nMark the bottom of every well with a line and number the wells.\nPour running buffer into the lower buffer chamber.\nPut the electrophoresis core (with the sandwich attached) in the chamber.\nPour running buffer into the top chamber.\nSlowly remove the comb using to forceps.\nRemove bubbles from under the gel.\nLoad the gel with sample.\nWhen all wells are loaded, slowly pipette 400 µl 2-mercaptoethanol in the upper buffer (adjust to chamber size).\nPut the lid on the apparatus, plug it to the power supply and run gels at 70 V in room temperatur until samples has reached the separating gel (approx 1.5 h). Place the chamber at 4°C for the remaining ~42 h.\n\n\n\n\nGel staining\nUse commercial gel staining before visualization."
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "",
+    "text": "Myosin heavy chains can be identified by eletrophoresis separation in acrylamide gels and in gel staining. The following protocol is an optimiziation based on previous protocol and published protocols (Bamman et al. 1999; Kohn and Myburgh 2006; Kubis and Gros 1997; Scheffler, Leitner, and Wright 2018; Talmadge and Roy 1993).\nStock solutions are prepared in advance. The entire protocol can be completed in about 30 hours. Start by casting the separating gel and leave for polymerization (30-90min). After ca. 90 min you can cast the stacking gel (separating gel continues to shrink while polymerizing for about 90 min. Lanes will shrink if you cast it earlier). Stacking gel should be left to polymerize 30-90 min. Sample preparation can be done while polymerization is taking place.\nMini-gel wells should be loaded with a total protein amount of 1,5-2,5 ug. Electrophoresis should run over night; 20 hours at 140V, 4°C. On day 2 (after 20 hours) gels are stained and analyzed."
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#background-and-protocol-overview",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#background-and-protocol-overview",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "",
+    "text": "Myosin heavy chains can be identified by eletrophoresis separation in acrylamide gels and in gel staining. The following protocol is an optimiziation based on previous protocol and published protocols (Bamman et al. 1999; Kohn and Myburgh 2006; Kubis and Gros 1997; Scheffler, Leitner, and Wright 2018; Talmadge and Roy 1993).\nStock solutions are prepared in advance. The entire protocol can be completed in about 30 hours. Start by casting the separating gel and leave for polymerization (30-90min). After ca. 90 min you can cast the stacking gel (separating gel continues to shrink while polymerizing for about 90 min. Lanes will shrink if you cast it earlier). Stacking gel should be left to polymerize 30-90 min. Sample preparation can be done while polymerization is taking place.\nMini-gel wells should be loaded with a total protein amount of 1,5-2,5 ug. Electrophoresis should run over night; 20 hours at 140V, 4°C. On day 2 (after 20 hours) gels are stained and analyzed."
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#health-and-safety",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#health-and-safety",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Health and safety",
+    "text": "Health and safety\nCAUTION: Always use gloves when working with the acrylamide/bis solution as acrylamide is neurotoxic."
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#recipe-for-six-mini-gels",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#recipe-for-six-mini-gels",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Recipe for six Mini-gels",
+    "text": "Recipe for six Mini-gels\n\nSeparating gel\nMix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. When pipetting glycerol, reverse-pipette using a 10-ml pipette that have been cut (3 mm) to increase the width of the pipette. De-gas solution by vacuum for 10 min. Add APS (stir 2 min) and TEMED (stir 45 sec) to initialize gel polymerization. Quickly pipette 6 ml per mini-gel to cast gels. Work quickly and be careful not to leave bubbles while casting. Add 0.5 ml isobutanol on top of gel just after casting to speed up polymerization. Wait 30-90 min for total polymerization. Note: Gel shrinks during polymerization. Use leftovers to confirm polymerization.\n\n\n\n\n\n\n\n\n\nComponent\nStock solution\nVolume (total volume 50 ml)\nFinal concentration\n\n\n\n\nLower SDS/Tris stock ph 8.8\n2%/1M\n10 ml\n200 mM/0.4 %\n\n\nGlycerol\n\n15 ml\n30 %\n\n\nGlycin stock\n1M\n5 ml\n100 mM\n\n\nAcr/Bis stock\n20.5%/0.41%\n19.5 ml\n8 %\n\n\nAPS\n10%\n500 ul\n0.1 %\n\n\nTEMED\n\n25 ul\n0.05 %\n\n\n\n\n\nStacking gel\nMix all components in (except APS and Temed) in a Büchner flask (vacuum flask) and allow to mix by gentle stirring for 10 min. De-gassing by vacuum may increase quality of the gel. Add APS and TEMED to initialize polymerization; Add APS first, stir solution for 2 min before adding TEMED, let solution stir 45s before casting the gel. Cast appropriate amount per minigel, be careful to not leave bubbles. Lower the comb last 1-2 mm after pouring. Wait 30-90 min for total polymerization. Use leftovers to confirm polymerization.\n\n\n\n\n\n\n\n\n\nComponent\nStock solution\nVolume (total volume 25 ml)\nFinal concentration\n\n\n\n\nddH2O\n\n10.15 ml\n\n\n\nUpper SDS/Tris stock pH 6.8\n5%/875 mM\n2 ml\n70 mM/0.4 %\n\n\nGlycerol\n\n7.5 ml\n30%\n\n\nAcr/Bis stock\n20.5%/0.41%\n4.88 ml\n4%\n\n\nEDTA stock\n0.5 M\n200 ul\n4 mM\n\n\nAPS\n10%\n250 ul\n0.1%\n\n\nTEMED\n\n12.5 ul\n0.05 %\n\n\n\n\n\nRunning buffer\nThe running buffer is made as upper- and lower concentrations. The upper buffer is 6X the lower buffer. Prepare the lower buffer by combining 100 ml upper with 500 ml ddH2O. Add Me-EtOH after preparing the lower buffer. (No mercaptoethanol in the lower buffer).\n\n\n\nComponent\nWeight/Volume\nFinal concentration:\n\n\n\n\nTris\n18.15 g\n300 mM\n\n\nGlycine\n16.88 g\n450 mM\n\n\nSDS 20%\n15 ml\n0.3 %\n\n\ndH2O\n\nadd to total volume of 500 ml\n\n\nMercaptoethanol\n121 ul per 100ml\n0.121 %"
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#detailed-step-by-step",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#detailed-step-by-step",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Detailed step-by-step",
+    "text": "Detailed step-by-step\nAssamble gel casting unit: Materials (per one mini-gel) • Microgel cast o 1 glass plate o 1 metal plate o 2 spacers o 1 comb o 1 Microgel rack • Two clamps • Electrophoresis apparatus o 1 electrophoresis rack o 1 electrophoresis machine • 4°C environment/room. 1. Wash everything thoroughly with soap, dry, then clean with EtOH before use. 2. Assemble microgel cast in microgel rack. Leave glass and metal plate ca. 1 mm under the edge of the microgel rack to ensure tight seal. 3. Check the seal with dH2O. Preparing separation gel Be careful when handling acrylamide and bis-acrylamide solutions. Use gloves! 1. Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer. 2. Combine components of the Separation gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 3. Degas for 10 min. 4. Add APS-solution (pipette to mix) and let the solution stir for 2 min. 5. Add TEMED (pipette to mix) and let the solution stir for 45 sec. 6. Using a 10 ml pipette pour 6 ml of solution into the gel cast. 7. Immediately add 0.75 ml isobutanol on top of the gel. 8. Let polymerize at room temperature for 30-90 min. Preparing stacking gel 1. Pour the isobutanol from the separation gel, flush the gel surface with dH2O, pour off (remove the remaining dH2O with paper if necessary. Carefully, without disturbing the gel.) 2. Place a filtering flask (min 50ml with hose connection) with a magnet on a stirrer. 3. Combine components of the Stacking gel (wait with the APS and TEMED). Let the solution stir slowly for 10 min. 4. Add APS-solution (pipette to mix) and let the solution stir for 2 min. 5. Add TEMED (pipette to mix) and let the solution stir for 45 sec. 6. Using a 5-10 ml pipette pour the appropriate amount of solution into the gel cast. Gel should fill the cast to the top. 7. Let polymerize at room temperature for at least 60 min before loading. Preparing Samples (for loading) 1. Complete Protein Extraction, Re-Suspension and Concentration-count (separate protocols) 2. Determine lane loads; 1.5 – 2.5 ug (this determines the dilution concentration you are aming for in the next step). 3. Dilute samples with Kopec Buffer Solution to reach appropriate/equal concentrations (1ug/ul will give you a good loading ammount). 4. Dilute samples with 4x Laemmli Solution Buffer: 1:4 Ratio (3 parts sample/1 part buffer). 5. Incubate 5 min at 95°C 6. Ready to load. NB: Vortex thoroughly at every step! Loading the microgel 1. While the microgel polymerizes, prepare running buffers 2. Take the sandwich out of the stand and attach it to the electrophoresis rack. 3. Mark the bottom of every well with a line and number the gels. NB: for the next steps you need to be efficient! 4. Pour ca. 75ml of “upper” running buffer in the upper chamber. 5. Carefully remove the comb to expose the lanes. 6. Load the gel with the samples according to preplanned loading scheme. Total protein amount should be 1.5-2.5 ug per lane for optimal separation of MyHC IIa and IIx fibers. Do not use lane 1 and 10 (proximity to edge of gel results in smear). 7. Add “lower” running buffer to bottom chamber. 8. Place lid on electrophoresis rack, and place entire apparatus in 4°C environment. 9. Run electrophoresis for 20 hours at 140V Gel staining Use commercial gel staining before visualization."
+  },
+  {
+    "objectID": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#stock-solutions-recipes",
+    "href": "protocols/pr_myhc_sds_page_ver_2020-02-05.html#stock-solutions-recipes",
+    "title": "Determination of relative myosin heavy chain isoform proportions by SDS-PAGE",
+    "section": "Stock solutions recipes",
+    "text": "Stock solutions recipes\n\nLower tris/SDS buffer\nFor 200 ml, adjust pH to 8.8 with HCl.\n\n\n\n\n\n\n\n\n\nComponent\nMolecular weight\nWeight/Volume for 200 ml\nFinal concentration\n\n\n\n\nTris\n121.14\n24.2 g\n1 M\n\n\nSDS (20%)\n\n20 ml\n2%\n\n\n\n\n\nUpper tris/SDS\nFor 200 ml, adjust pH to 6.8 with HCl.\n\n\n\n\n\n\n\n\n\nComponent\nMolecular weight\nWeight/Volume for 200 ml\nFinal concentration\n\n\n\n\nTris\n121.14\n21.18 g\n875 mM\n\n\nSDS (20%)\n\n50 ml\n5%\n\n\n\n\n\nAcrylamide/Bis stock (50:1)\nCAUTION: Handle acrylamide with care, toxic!\n\n\n\n\n\n\n\n\n\nComponent\nConcentration (Stock)\nWeight/Volume for 250 ml\nFinal concentration\n\n\n\n\nAcrylamide\n40%\n128.125 ml\n20.5%\n\n\nBis\n2%\n51.25 ml\n0.41%\n\n\nddH2O\n\n70.625 ml\n\n\n\n\n\n\nGlycin 1M\n\n\n\n\n\n\n\n\n\nComponent\nMolecular weight\nWeight/Volume for 50 ml\nFinal concentration\n\n\n\n\nGlycin\n75.07\n3.75 g\n1 M\n\n\n\n\n\nAPS (10%)\n\n\n\nComponent\nWeight/Volume for 1 ml\nFinal concentration\n\n\n\n\nAmmonium persulphate\n0.1 g\n10 %\n\n\n\n\n\nEthylenediamine tetraacetic acid (EDTA) 0.5 M\n\n\n\n\n\n\n\n\n\nComponent\nMolecular weight\nWeight/Volume for 500 ml\nFinal concentration\n\n\n\n\nNa2 EDTA 2 H2O\n372.24\n93.05 g\n0.5 M\n\n\n\nStir EDTA and ~ 400 ml ddH2O and add ~ 10 g NaOH pellets to adjust pH to 8.0."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html",
+    "title": "Solutions",
+    "section": "",
+    "text": "100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)\n10 ml of 10% SDS (final concentration 0.1%)\nddH2O to 1000 ml\n\nDo not adjust pH, chill before use."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#running-buffer-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#running-buffer-1-liter",
+    "title": "Solutions",
+    "section": "",
+    "text": "100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)\n10 ml of 10% SDS (final concentration 0.1%)\nddH2O to 1000 ml\n\nDo not adjust pH, chill before use."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#transfer-buffer-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#transfer-buffer-1-liter",
+    "title": "Solutions",
+    "section": "Transfer buffer (1 liter)",
+    "text": "Transfer buffer (1 liter)\n\n100 ml 10X Tris-Glycine buffer (Final concentration 25 mM Tris, 192 mM Glycine)\n100 ml MeOH (Final concentration 10%)\nddH2O to 1000 ml\n\nDo not adjust pH, chill before use. The buffer can be re-used up to five times. Make buffer on the day before the experiment to allow to “de-gas”. Disposal: Do NOT pour transfer buffer down the drain, collect in designated bottle and dispose as hazardous waste."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#x-tbs-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#x-tbs-1-liter",
+    "title": "Solutions",
+    "section": "10X TBS (1 liter)",
+    "text": "10X TBS (1 liter)\n\n24 g Tris-HCl (formula weight: 157.6 g)\n5.6 g Tris base (formula weight: 121.1 g)\n88 g NaCl (formula weight: 58.4 g)\n\nDissolve in 900 mL ddH2O Adjust pH to 7.6 and make up to final volume 1000 ml with ddH2O. The final molar concentrations of the 1X solution are 20 mM Tris and 150 mM NaCl"
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#x-tbs-tween-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#x-tbs-tween-1-liter",
+    "title": "Solutions",
+    "section": "1X TBS-Tween (1 liter)",
+    "text": "1X TBS-Tween (1 liter)\n\n100 ml 10X TBS\n1 ml Tween-20 (final concentration 0.1%)\n\nTo 1000 ml with ddH2O"
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#x-tris-glycine-buffer-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#x-tris-glycine-buffer-1-liter",
+    "title": "Solutions",
+    "section": "10X Tris-Glycine buffer (1 liter)",
+    "text": "10X Tris-Glycine buffer (1 liter)\n\n30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)\n144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)\n\nDissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#x-tris-glycine---running-buffer-1-liter",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#x-tris-glycine---running-buffer-1-liter",
+    "title": "Solutions",
+    "section": "10X Tris-Glycine - Running buffer (1 liter)",
+    "text": "10X Tris-Glycine - Running buffer (1 liter)\n\n30.3 g Tris (mw 121.14) (Final concentration 250 mM, 25mM in 1X)\n144.1 g Glycine (mw 75.07) (Final concentration 1.92 M, 192 mM in 1X)\n10 g SDS\n\nDissolve in 800 ml, adjust to final volume 1000 ddH2O. Do not adjust pH, should be around 8.3."
+  },
+  {
+    "objectID": "protocols/pr_solutions_ver_2019-11-12.html#kopec-buffer",
+    "href": "protocols/pr_solutions_ver_2019-11-12.html#kopec-buffer",
+    "title": "Solutions",
+    "section": "Kopec buffer",
+    "text": "Kopec buffer\nNote: The Kopec buffer is suitable for dissolvining the protein pellet after Trizol extraction. See full protocol: Extraction of RNA and protein from muscle samples using Trizol reagent.\n\n\n\nComponent\nMW\nFinal concentration\nFor 200 ml\n\n\n\n\nEDTA\n372.24\n20 mM\n1.49 g\n\n\nNaCl\n58.44\n140 mM\n1.64 g\n\n\nSDS\n\n5%\n10 g\n\n\nTris\n121.14\n10 mM\n2.42 g\n\n\n\nAdjust pH to 8.0, add phosphatase and protease inhibitors prior to use."
+  },
+  {
+    "objectID": "protocols/pr_tissuehomogenization_ver_2019-11-12.html",
+    "href": "protocols/pr_tissuehomogenization_ver_2019-11-12.html",
+    "title": "General purpose muscle tissue homogenization protocol",
+    "section": "",
+    "text": "Skeletal muscle tissue can be homogenized using mechanical disruption together with a suitable buffer solution to produce a lysate for protein analysis. The choice of buffer will significantly affect the ability to detect specific proteins in the lysate. This protocol details a general purpose tissue homogenization."
+  },
+  {
+    "objectID": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#background-and-purpose",
+    "href": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#background-and-purpose",
+    "title": "General purpose muscle tissue homogenization protocol",
+    "section": "",
+    "text": "Skeletal muscle tissue can be homogenized using mechanical disruption together with a suitable buffer solution to produce a lysate for protein analysis. The choice of buffer will significantly affect the ability to detect specific proteins in the lysate. This protocol details a general purpose tissue homogenization."
+  },
+  {
+    "objectID": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#materials",
+    "href": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#materials",
+    "title": "General purpose muscle tissue homogenization protocol",
+    "section": "Materials",
+    "text": "Materials\n\nMicrofuge tubes (1.5 ml Eppendorf)\nPlastic pestle\nCentrifuge (capable of 10 000 g and 4°C)\nIce\nLysis buffer (e.g. Hepes-buffer, Ripa-buffer)"
+  },
+  {
+    "objectID": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#methods",
+    "href": "protocols/pr_tissuehomogenization_ver_2019-11-12.html#methods",
+    "title": "General purpose muscle tissue homogenization protocol",
+    "section": "Methods",
+    "text": "Methods\n\nPrepare the tissue by dissection away any connective tissue and blood. If you are working with wet tissue, this step should be done prior to freezing. Freeze dried tissue can be dissected in room temperature under the microscope. Use 10-50 mg wet-weight tissue or 2-10 mg freeze-dried tissue.\nAdd protease/phosphatase inhibitors to the ice-cold lysis buffer.\nKeep the sample on dry ice or cooling block until you add the ice cold lysis buffer of choice. Use 20 ul/mg wet-weight or 80 ul/mg dry weight.\nQuickly disrupt the tissue by hand using the plastic pestle until there are no visible pieces.\nKeep the sample on ice, vortex or rotate the sample for 20-60 min.\nSpin the sample 10 min, 10 000 g, 4°C\nCarefully remove the supernatant to a new tube without disrupting the pellet.\nAliquot the sample to a tube for protein concentration determination (1:10 dilution, 4 ul to 36 ul ddH2O. Keep a known volume for later normalization of the protein concentration (e.g. to 3 ug/ul) keep on ice."
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html",
+    "href": "protocols/pr_trizol_ver_20191111.html",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "",
+    "text": "The Trizol-protocol can be used to extract RNA, DNA and protein from muscle tissue. The protein pellet is hard to dissolve, Kopec et al. 1 provided guidelines for improved solubility of the protein pellet after precipitation. The total RNA content per tissue weight can be used as proxy marker for ribosome content. If this is an aim, care must be taken to assure e.g. no sample loss. External reference genes can be used to control for tissue weight."
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html#background",
+    "href": "protocols/pr_trizol_ver_20191111.html#background",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "",
+    "text": "The Trizol-protocol can be used to extract RNA, DNA and protein from muscle tissue. The protein pellet is hard to dissolve, Kopec et al. 1 provided guidelines for improved solubility of the protein pellet after precipitation. The total RNA content per tissue weight can be used as proxy marker for ribosome content. If this is an aim, care must be taken to assure e.g. no sample loss. External reference genes can be used to control for tissue weight."
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html#materials",
+    "href": "protocols/pr_trizol_ver_20191111.html#materials",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "Materials",
+    "text": "Materials\nFor extraction of RNA and protein per sample:\n\n1.5 ml Eppendorf tube with 0.5 mm RNase-free Zirconium beads (~50 ul) Keep out DNA RNAse contaminations (Eppendorf safe-lock for use in bullet blender.\n1.5 ml tube for RNA precipitation\n1.5 ml tube for RNA quantification (1:5 dilution, add 20 ul of DEPC-water)\n1.5 ml tubes for Protein precipitation\n1.5 ml tubes for Soluble protein fraction\n1.5 ml tubes for protein quantification (1:10 dilution, add 36 ul of ddH2O)"
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html#solutions-and-chemicals",
+    "href": "protocols/pr_trizol_ver_20191111.html#solutions-and-chemicals",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "Solutions and chemicals",
+    "text": "Solutions and chemicals\n\nTrizol (Life-technologies)\nChloroform\nIsopropanol\nExternal reference gene (e.g. Takara lambda)\n100% EtOH\n95% EtOH\n75% EtOH (kept on -20)\nKopec buffer:\n\n\n\n\nComponent\nMW\nFinal concentration\nFor 200 ml\n\n\n\n\nEDTA\n372.24\n20 mM\n1.49 g\n\n\nNaCl\n58.44\n140 mM\n1.64 g\n\n\nSDS\n\n5%\n10 g\n\n\nTris\n121.14\n10 mM\n2.42 g\n\n\n\nAdjust pH to 8.0, add phosphatase and protease inhibitors prior to use."
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html#methods",
+    "href": "protocols/pr_trizol_ver_20191111.html#methods",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "Methods",
+    "text": "Methods\n\nHomogenization and phase separation\n\nAdd 1 sample volume of beads and 300 ul Trizol to eppendorf 1.5 ml tubes. Keep on ice. OPTIONAL: If external reference gene is used, add 1 unit to every extraction with Trizol in first step. Lambda (0.04 ng/ul, 2 ul per extraction)\nAdd frozen muscle samples (protocol optimized for 5-25 ug of wet weight muscle sample) without thawing and put tubes in Bullet blender\nRun Bullet Blender (BB) for 1 min at speed 10, put samples on ice for 1 min. Run samples for 1 min at speed 12. Check samples, if not dissolved run until fully homogenized.\nAdd Trizol (700 ul) to total volume 1000 ul, run samples in BB for 1 min speed 3.\nIncubate @ RT for 5 min\nAdd 200 ul chloroform, shake 15 sec, incubate for 2-3 min.\nSpin 12000g, 15min, 4°C\nPipette 450 ul of the aqueous phase to a new tube. Be careful not to disrupt the interphase or organic phase. Add 500 ul of isopropanol to precipitate RNA, incubate over night at -20°C or 10 min at room temp and continue with RNA extraction.\nCompletely remove the remaining aqueous phase, either store remaining phases at -20°C until protein extraction or continue right away\n\n\n\nRNA extraction\nPrecipitation and wash\n\nSpin the isopropanol/water phase 12000g, 10min, 4°C. A pellet should form, decant supernatant, spin briefly and remove remaining liquids.\nAdd 1000 ul 75% EtOH (-20°C) @ RT, vortex gently. Spin 7500g, 5min, 4°C.\nRepeat step 2 two more times.\nRemove all EtOH, air dry the pellet up to 10 min with tubes upside-down. Do not over-dry!\n\n\nSuspension\n\nAdd 20-40 ul of 1x DEPC-treated water (55°C), incubate at 55°C for 10min.\nAliquot:\n\n5 ul to 20 ul TE buffer for Nanodrop/Qubit2\nx ul in stock solution\n\n\n\nStore RNA stock solution @ -80°C.\n\n\n\n\nProtein extraction\n\nDNA precipitation, protein precipitation\n\nAdd 300 ul of 100% EtOH, invert tubes to mix. Incubate for 3 min @ RT.\nSpinn 2000g, 5min, 4°C.\nTransfer the phenol-ethanol supernatant to a new tube3.\nTransfer-volume \\(\\frac{1.75}{MW/950}\\) , where MW is muscle weight4.\n\n\nAdd at least 2x isopropanol, shake and incubate samples @ RT, 10 min.\nSpinn 12 000g, 10 min, 4°C\nWash pellet in 500 ul 95% EtOH. Work quickly do not dry out the pellet, no incubations. Dislodge the pellet from the tube in every wash.\nSpinn, 7500 g, 5 min, 4°C. Remove wash.\nRepeat step 7-8, one to two more times.\nAir dry pellet 5-10 min, do not dry out the pellet but remove ALL EtOH! (Centrifuge briefly to remove all EtOH).\n\n\n\nProtein re-suspension\n\nAdd 45 ul of Kopec-buffer\nIncubate 2-4 hours at 50°C\nPipette solution to mix. Centrifuge at room temp to sediment any insoluble material. (10000 g, 5 min)\nTransfer supernatant to 3 aliquots (~60 ul) + 4 ul to 36 ul H2O for 1:10 dilution\nMeasure 5 ul of 1:10 dilution in qubit for protein concentration. Store at -80°C"
+  },
+  {
+    "objectID": "protocols/pr_trizol_ver_20191111.html#footnotes",
+    "href": "protocols/pr_trizol_ver_20191111.html#footnotes",
+    "title": "Extraction of RNA and protein from muscle tissue",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nKopec, A.M., et al., Optimized solubilization of TRIzol-precipitated protein permits Western blotting analysis to maximize data available from brain tissue. Journal of neuroscience methods, 2017. 280: p. 64-76.↩︎\nTE buffer can be used to get more reliable quality readings as pH of the buffer affects the 260 reading in the spectrometer↩︎\nMultiple aliquots are recommended, e.g. continue with two and keep two as backup on -20°C.↩︎\nTransfers a volume corresponding to 1.75 mg of tissue↩︎"
+  },
+  {
+    "objectID": "protocols/sw_pcr_size_determination.html",
+    "href": "protocols/sw_pcr_size_determination.html",
+    "title": "Determining PCR-product sizes",
+    "section": "",
+    "text": "Background\nThe product size from PCR reactions is determined by primer design and subsequent specificity. A specific primer will produce a product length corresponding to the length of the segment amplified by the primers. If primers are unspecific, covering multiple templates, product lengths will potentially vary. PCR-product size can therefore be used to determine if a PCR reaction has targeted the expected template.\nThis tutorial will show how to determine sizes of PCR products from an agarose gel using ImageJ and R.\n\n\nPrerequisite\nDownload ImageJ Fiji. Examples of data analyses below are performed in R and RStudio.\nA general protocol for agarose gel electrophoresis can be found under protocols.\n\n\nMeasuring product migration distance in ImageJ\n\nStart ImageJ, open up a gel image (Figure 1).\n\n - Invert the image (Shift + Ctrl + I) and rotate it (Image &gt; Transform &gt; Rotate) so that the top of the gel (wells) are on the left (Figure 2).\n - Select the Rectangle tool in ImageJ and draw a box covering the wells of interest and the ladder, press Shift + X to crop the image (Figure 3). Make sure the wells runs horizontally, adjust the rotation otherwise.\n - Using the Rectangle tool, select the well containing the ladder and press Ctrl + 1, move the Rectangle to the next well and press Ctrl + 2. Select all wells of interest using Ctrl + 2 except for the last well, select the last well using Ctrl + 3. A new window will appear (Figure 4).\n - The curves in the new window represents the pixel intensity of each well. Go to the Analyze &gt; Set Measurements in ImageJ and de-select all measurement, a single decimal places is sufficient. Select the Multi-point tool and mark every peak in each well (Figure 5).\n When all peaks are marked press Ctrl + M. A new window should appear with x and y measurements (Figure 6).\n\n\n\nCalculate unknown product sizes based ladder estimates\n\nCreate a spreadsheet with the data collected in ImageJ, alternatively, input your data in R directly (as below). The x-values from ImageJ are the values of interest.\nInput the data detailing the ladder (mw in the example below). We get this information from the description of the ladder. The GeneRuler 50 bp DNA Ladder (Thermo scientific) is used in this example.\n\n\n# Create a data frame of known distances and molecular weights\nladder &lt;- data.frame(dist = c(29, 43.5, 60.5,\n                              80.5, 106.5,  141.5,  \n                              181.5,    243.5,  281.5,\n                              328.5,    390.5,  465.5,  580.5), \n                     mw = c(1000, 900, 800, \n                            700, 600, 500,\n                            400, 300, 250, \n                            200, 150, 100, 50))\n            \n\n# Create a new data frame of unknowns\nunknown &lt;- data.frame(dist = c(470.5,   391.5,  528.5,\n                               421.5,   507.5))\n\n\nDNA fragment sizes will be linear to migration distance when expressed on the log scale. Create a “calibration model” using the ladder.\n\n\n\n\n\n\n\n\n\n\n\n# Fit the model\ncal &lt;- lm(log(mw) ~ dist, data = ladder)\n\n# Check model performance, R^2 should be ~ 1.\nsummary(cal)\n\n\nCall:\nlm(formula = log(mw) ~ dist, data = ladder)\n\nResiduals:\n      Min        1Q    Median        3Q       Max \n-0.054731 -0.040851 -0.001577  0.034241  0.063743 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  6.9957281  0.0200403  349.08  &lt; 2e-16 ***\ndist        -0.0052316  0.0000712  -73.47 3.69e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.0432 on 11 degrees of freedom\nMultiple R-squared:  0.998, Adjusted R-squared:  0.9978 \nF-statistic:  5398 on 1 and 11 DF,  p-value: 3.691e-16\n\n\n\nEstimate molecular weights from migration distances using the data frame of unknowns and the predict function. Since the model is created from log transformed data we need to convert to linear scale before interpreting using exp().\n\n\npreds &lt;- exp(predict(cal, newdata = unknown) )\n\n\nCompare the measured sizes with predicted sizes from the primer design stage."
+  }
+]
